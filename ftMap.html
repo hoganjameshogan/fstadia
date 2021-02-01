@@ -1,0 +1,3468 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_badeef05f99e42028fbb8cc5477b6273 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_badeef05f99e42028fbb8cc5477b6273" ></div>
+        
+</body>
+<script>    
+    
+            var map_badeef05f99e42028fbb8cc5477b6273 = L.map(
+                "map_badeef05f99e42028fbb8cc5477b6273",
+                {
+                    center: [51.5074, 0.1277],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a8ba294a106f4affb5159d2d3fbf7930 = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_badeef05f99e42028fbb8cc5477b6273);
+        
+    
+            var feature_group_718f369ae37640b4bdc6f6456de3590d = L.featureGroup(
+                {}
+            ).addTo(map_badeef05f99e42028fbb8cc5477b6273);
+        
+    
+            var marker_42480996fbf4424ea3a4d3617dd4e7da = L.marker(
+                [51.555, -0.108611],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_5f3f446a80f94971abd673e7fe72280e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_42480996fbf4424ea3a4d3617dd4e7da.setIcon(icon_5f3f446a80f94971abd673e7fe72280e);
+        
+    
+        var popup_b23f97532de348b9ba54debce2edb2bd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1dcb2d7543d14bfca556c629ebdd6eb1 = $(`<div id="html_1dcb2d7543d14bfca556c629ebdd6eb1" style="width: 100.0%; height: 100.0%;">Arsenal </div>`)[0];
+            popup_b23f97532de348b9ba54debce2edb2bd.setContent(html_1dcb2d7543d14bfca556c629ebdd6eb1);
+        
+
+        marker_42480996fbf4424ea3a4d3617dd4e7da.bindPopup(popup_b23f97532de348b9ba54debce2edb2bd)
+        ;
+
+        
+    
+    
+            var marker_00d9ac08829f44c9b12aa9097dd012cb = L.marker(
+                [52.509167, -1.884722],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_fca869accb694f4c88c323825d004783 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_00d9ac08829f44c9b12aa9097dd012cb.setIcon(icon_fca869accb694f4c88c323825d004783);
+        
+    
+        var popup_33009e9ac8a847a8bb77ddbc5284c3fa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d80be1fd68874c93a095cda9c2be318d = $(`<div id="html_d80be1fd68874c93a095cda9c2be318d" style="width: 100.0%; height: 100.0%;">Aston Villa </div>`)[0];
+            popup_33009e9ac8a847a8bb77ddbc5284c3fa.setContent(html_d80be1fd68874c93a095cda9c2be318d);
+        
+
+        marker_00d9ac08829f44c9b12aa9097dd012cb.bindPopup(popup_33009e9ac8a847a8bb77ddbc5284c3fa)
+        ;
+
+        
+    
+    
+            var marker_34d60aec97e849b48ab99d62d35b8e69 = L.marker(
+                [53.728611, -2.489167],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_bf02baf0329b4a57916127e1cdcde8fb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_34d60aec97e849b48ab99d62d35b8e69.setIcon(icon_bf02baf0329b4a57916127e1cdcde8fb);
+        
+    
+        var popup_92bb5c8590d649eda2512d9519db43f9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ef871788ecb24e948698d05824540775 = $(`<div id="html_ef871788ecb24e948698d05824540775" style="width: 100.0%; height: 100.0%;">Blackburn Rovers </div>`)[0];
+            popup_92bb5c8590d649eda2512d9519db43f9.setContent(html_ef871788ecb24e948698d05824540775);
+        
+
+        marker_34d60aec97e849b48ab99d62d35b8e69.bindPopup(popup_92bb5c8590d649eda2512d9519db43f9)
+        ;
+
+        
+    
+    
+            var marker_0cef54756d374d90995f967fc12196c0 = L.marker(
+                [53.580556, -2.535556],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_447557bccc3446ee85ff44f66c1e4cf0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_0cef54756d374d90995f967fc12196c0.setIcon(icon_447557bccc3446ee85ff44f66c1e4cf0);
+        
+    
+        var popup_287cd4acfa2c47e28b01c84db6738b85 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b5c963c5ea464619a3b1acd1c7110f00 = $(`<div id="html_b5c963c5ea464619a3b1acd1c7110f00" style="width: 100.0%; height: 100.0%;">Bolton Wanderers </div>`)[0];
+            popup_287cd4acfa2c47e28b01c84db6738b85.setContent(html_b5c963c5ea464619a3b1acd1c7110f00);
+        
+
+        marker_0cef54756d374d90995f967fc12196c0.bindPopup(popup_287cd4acfa2c47e28b01c84db6738b85)
+        ;
+
+        
+    
+    
+            var marker_122d2c47d7464ce182553b6c3abd6950 = L.marker(
+                [51.481667, -0.191111],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_36617b1dbc174c7ab378908213b22382 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_122d2c47d7464ce182553b6c3abd6950.setIcon(icon_36617b1dbc174c7ab378908213b22382);
+        
+    
+        var popup_c8f669a34fa143c48f7b2752b431e2a2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cfd30c5fd901414f8d4731a7d7eb9c93 = $(`<div id="html_cfd30c5fd901414f8d4731a7d7eb9c93" style="width: 100.0%; height: 100.0%;">Chelsea </div>`)[0];
+            popup_c8f669a34fa143c48f7b2752b431e2a2.setContent(html_cfd30c5fd901414f8d4731a7d7eb9c93);
+        
+
+        marker_122d2c47d7464ce182553b6c3abd6950.bindPopup(popup_c8f669a34fa143c48f7b2752b431e2a2)
+        ;
+
+        
+    
+    
+            var marker_7d26cbc092d14420bf20e0ed34238016 = L.marker(
+                [53.438889, -2.966389],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_ee22be9c2547467eab9748e448bcfac3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_7d26cbc092d14420bf20e0ed34238016.setIcon(icon_ee22be9c2547467eab9748e448bcfac3);
+        
+    
+        var popup_175cd51cb8c346f1bfd1921dd3498f09 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c4374db8e59449ad8a17982285252de2 = $(`<div id="html_c4374db8e59449ad8a17982285252de2" style="width: 100.0%; height: 100.0%;">Everton </div>`)[0];
+            popup_175cd51cb8c346f1bfd1921dd3498f09.setContent(html_c4374db8e59449ad8a17982285252de2);
+        
+
+        marker_7d26cbc092d14420bf20e0ed34238016.bindPopup(popup_175cd51cb8c346f1bfd1921dd3498f09)
+        ;
+
+        
+    
+    
+            var marker_7ae76eb721014c78bba7429358738628 = L.marker(
+                [51.475, -0.221667],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_4a67ba4c3c11455d90c08cc0226762bd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_7ae76eb721014c78bba7429358738628.setIcon(icon_4a67ba4c3c11455d90c08cc0226762bd);
+        
+    
+        var popup_56c74c4765244a7793c905b7b34bee17 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f54f83be2fe943a9af613b4a906ad642 = $(`<div id="html_f54f83be2fe943a9af613b4a906ad642" style="width: 100.0%; height: 100.0%;">Fulham </div>`)[0];
+            popup_56c74c4765244a7793c905b7b34bee17.setContent(html_f54f83be2fe943a9af613b4a906ad642);
+        
+
+        marker_7ae76eb721014c78bba7429358738628.bindPopup(popup_56c74c4765244a7793c905b7b34bee17)
+        ;
+
+        
+    
+    
+            var marker_ddcb953a336a43d0b0fe8316e8f28ec5 = L.marker(
+                [53.430819, -2.960828],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_bd2a2a92c8234a478fb56548b85f9ce1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_ddcb953a336a43d0b0fe8316e8f28ec5.setIcon(icon_bd2a2a92c8234a478fb56548b85f9ce1);
+        
+    
+        var popup_1b63b95683ef4302908c19ee0229aaa2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f54e99e910c14db2a0cab0e7d5922511 = $(`<div id="html_f54e99e910c14db2a0cab0e7d5922511" style="width: 100.0%; height: 100.0%;">Liverpool </div>`)[0];
+            popup_1b63b95683ef4302908c19ee0229aaa2.setContent(html_f54e99e910c14db2a0cab0e7d5922511);
+        
+
+        marker_ddcb953a336a43d0b0fe8316e8f28ec5.bindPopup(popup_1b63b95683ef4302908c19ee0229aaa2)
+        ;
+
+        
+    
+    
+            var marker_a61c260ad42a41d4800dd3f036f9a5d8 = L.marker(
+                [53.482989, -2.200292],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_0284ce0f36424984bf2cc91b4d02c773 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_a61c260ad42a41d4800dd3f036f9a5d8.setIcon(icon_0284ce0f36424984bf2cc91b4d02c773);
+        
+    
+        var popup_c585f85e511746a7906c8bcbcafec762 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b4b8514cf2014b519e77deec5933decd = $(`<div id="html_b4b8514cf2014b519e77deec5933decd" style="width: 100.0%; height: 100.0%;">Manchester City </div>`)[0];
+            popup_c585f85e511746a7906c8bcbcafec762.setContent(html_b4b8514cf2014b519e77deec5933decd);
+        
+
+        marker_a61c260ad42a41d4800dd3f036f9a5d8.bindPopup(popup_c585f85e511746a7906c8bcbcafec762)
+        ;
+
+        
+    
+    
+            var marker_ca621ff8443148c7ac04a682f54fb806 = L.marker(
+                [53.463056, -2.291389],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_0d090a800f4e420c8c850f10fa591b95 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_ca621ff8443148c7ac04a682f54fb806.setIcon(icon_0d090a800f4e420c8c850f10fa591b95);
+        
+    
+        var popup_1c10b234a5494f84a1393732259a2bc2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5990121e2af440f996500e0f5fc44f89 = $(`<div id="html_5990121e2af440f996500e0f5fc44f89" style="width: 100.0%; height: 100.0%;">Manchester United </div>`)[0];
+            popup_1c10b234a5494f84a1393732259a2bc2.setContent(html_5990121e2af440f996500e0f5fc44f89);
+        
+
+        marker_ca621ff8443148c7ac04a682f54fb806.bindPopup(popup_1c10b234a5494f84a1393732259a2bc2)
+        ;
+
+        
+    
+    
+            var marker_e21d660576b243e08c1b2c1a89f2c3cc = L.marker(
+                [54.975556, -1.621667],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_981e770d59ca461185fd94ed53211074 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_e21d660576b243e08c1b2c1a89f2c3cc.setIcon(icon_981e770d59ca461185fd94ed53211074);
+        
+    
+        var popup_74bf6b6ab3c740f7b9b3efe80a317423 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8f878da0b5134367aa52561bc10f21e4 = $(`<div id="html_8f878da0b5134367aa52561bc10f21e4" style="width: 100.0%; height: 100.0%;">Newcastle United </div>`)[0];
+            popup_74bf6b6ab3c740f7b9b3efe80a317423.setContent(html_8f878da0b5134367aa52561bc10f21e4);
+        
+
+        marker_e21d660576b243e08c1b2c1a89f2c3cc.bindPopup(popup_74bf6b6ab3c740f7b9b3efe80a317423)
+        ;
+
+        
+    
+    
+            var marker_c8be9dbfe08746f4a432c0d78c30602a = L.marker(
+                [52.622128, 1.308653],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_4deb683f842b433a9977092edd5cfc54 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_c8be9dbfe08746f4a432c0d78c30602a.setIcon(icon_4deb683f842b433a9977092edd5cfc54);
+        
+    
+        var popup_c915d015b53147b79b648f0bd9e7e216 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d73c9bc50b134225b7b2c0c4ea2e34fa = $(`<div id="html_d73c9bc50b134225b7b2c0c4ea2e34fa" style="width: 100.0%; height: 100.0%;">Norwich City </div>`)[0];
+            popup_c915d015b53147b79b648f0bd9e7e216.setContent(html_d73c9bc50b134225b7b2c0c4ea2e34fa);
+        
+
+        marker_c8be9dbfe08746f4a432c0d78c30602a.bindPopup(popup_c915d015b53147b79b648f0bd9e7e216)
+        ;
+
+        
+    
+    
+            var marker_7c2566e6199d4563b2ac41a4046dc606 = L.marker(
+                [51.509167, -0.232222],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_d36387c6736a487a84480026a35e3c7c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_7c2566e6199d4563b2ac41a4046dc606.setIcon(icon_d36387c6736a487a84480026a35e3c7c);
+        
+    
+        var popup_cbd6679fb43a4a3c903c65b5151d5a1c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c934467ac1ea4c7293aecd34f3a4443e = $(`<div id="html_c934467ac1ea4c7293aecd34f3a4443e" style="width: 100.0%; height: 100.0%;">Queens Park Rangers </div>`)[0];
+            popup_cbd6679fb43a4a3c903c65b5151d5a1c.setContent(html_c934467ac1ea4c7293aecd34f3a4443e);
+        
+
+        marker_7c2566e6199d4563b2ac41a4046dc606.bindPopup(popup_cbd6679fb43a4a3c903c65b5151d5a1c)
+        ;
+
+        
+    
+    
+            var marker_7f50a47e72324ea1859d34b450e2f2e7 = L.marker(
+                [52.988333, -2.175556],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_4cde60f539d2478fb1fe13b724f650d0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_7f50a47e72324ea1859d34b450e2f2e7.setIcon(icon_4cde60f539d2478fb1fe13b724f650d0);
+        
+    
+        var popup_b9d666c027a14295bee90f56e26cbd54 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a07df175da364d0396dcefae1a939fe1 = $(`<div id="html_a07df175da364d0396dcefae1a939fe1" style="width: 100.0%; height: 100.0%;">Stoke City </div>`)[0];
+            popup_b9d666c027a14295bee90f56e26cbd54.setContent(html_a07df175da364d0396dcefae1a939fe1);
+        
+
+        marker_7f50a47e72324ea1859d34b450e2f2e7.bindPopup(popup_b9d666c027a14295bee90f56e26cbd54)
+        ;
+
+        
+    
+    
+            var marker_5590fb5fcf69490083acf4a502a5d882 = L.marker(
+                [54.9144, -1.3882],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_4a18e6e178eb4498af006decbc5d9e9e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_5590fb5fcf69490083acf4a502a5d882.setIcon(icon_4a18e6e178eb4498af006decbc5d9e9e);
+        
+    
+        var popup_e613c9925dd7411e9c002a63401c5ded = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f6725afdb88b4fdc96340dcb71afd72d = $(`<div id="html_f6725afdb88b4fdc96340dcb71afd72d" style="width: 100.0%; height: 100.0%;">Sunderland </div>`)[0];
+            popup_e613c9925dd7411e9c002a63401c5ded.setContent(html_f6725afdb88b4fdc96340dcb71afd72d);
+        
+
+        marker_5590fb5fcf69490083acf4a502a5d882.bindPopup(popup_e613c9925dd7411e9c002a63401c5ded)
+        ;
+
+        
+    
+    
+            var marker_0ca3dfde96554722994cbd47b0b42753 = L.marker(
+                [51.6422, -3.9351],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_151fdbfd53834e8395376d9b6575c220 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_0ca3dfde96554722994cbd47b0b42753.setIcon(icon_151fdbfd53834e8395376d9b6575c220);
+        
+    
+        var popup_ed3e2b554059485395d85e269c5e71c1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8d8673b8f56e48b3b03dcdd5bcfa5bf2 = $(`<div id="html_8d8673b8f56e48b3b03dcdd5bcfa5bf2" style="width: 100.0%; height: 100.0%;">Swansea City </div>`)[0];
+            popup_ed3e2b554059485395d85e269c5e71c1.setContent(html_8d8673b8f56e48b3b03dcdd5bcfa5bf2);
+        
+
+        marker_0ca3dfde96554722994cbd47b0b42753.bindPopup(popup_ed3e2b554059485395d85e269c5e71c1)
+        ;
+
+        
+    
+    
+            var marker_a8673d84cd4b4220b594731eeb643e29 = L.marker(
+                [51.603333, -0.065833],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_8a8f8440e5aa4bdaae2c2af4dcabca4b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_a8673d84cd4b4220b594731eeb643e29.setIcon(icon_8a8f8440e5aa4bdaae2c2af4dcabca4b);
+        
+    
+        var popup_6138466283e64178bc80e49897155f58 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9010a44573db462dbcca85ada2f7725a = $(`<div id="html_9010a44573db462dbcca85ada2f7725a" style="width: 100.0%; height: 100.0%;">Tottenham Hotspur </div>`)[0];
+            popup_6138466283e64178bc80e49897155f58.setContent(html_9010a44573db462dbcca85ada2f7725a);
+        
+
+        marker_a8673d84cd4b4220b594731eeb643e29.bindPopup(popup_6138466283e64178bc80e49897155f58)
+        ;
+
+        
+    
+    
+            var marker_ed815446123544b4b6689325d5c3fc81 = L.marker(
+                [52.509167, -1.963889],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_7ad08e361d524f978424a1f0a7d33554 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_ed815446123544b4b6689325d5c3fc81.setIcon(icon_7ad08e361d524f978424a1f0a7d33554);
+        
+    
+        var popup_9c2cc78581b845b2870a3dc0d7fd8b25 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fcd103fb5c004f9c8bf7a02d09598717 = $(`<div id="html_fcd103fb5c004f9c8bf7a02d09598717" style="width: 100.0%; height: 100.0%;">West Bromwich Albion </div>`)[0];
+            popup_9c2cc78581b845b2870a3dc0d7fd8b25.setContent(html_fcd103fb5c004f9c8bf7a02d09598717);
+        
+
+        marker_ed815446123544b4b6689325d5c3fc81.bindPopup(popup_9c2cc78581b845b2870a3dc0d7fd8b25)
+        ;
+
+        
+    
+    
+            var marker_f8770a1093a14e1296a73bcb36084066 = L.marker(
+                [53.547778, -2.653889],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_e6a96013a7454d07abea1426a1ecd61c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_f8770a1093a14e1296a73bcb36084066.setIcon(icon_e6a96013a7454d07abea1426a1ecd61c);
+        
+    
+        var popup_f6ce72cda756433f9c79ad61fe6393d0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a9c2d16c464442bbacb1b99cb701d2bd = $(`<div id="html_a9c2d16c464442bbacb1b99cb701d2bd" style="width: 100.0%; height: 100.0%;">Wigan Athletic </div>`)[0];
+            popup_f6ce72cda756433f9c79ad61fe6393d0.setContent(html_a9c2d16c464442bbacb1b99cb701d2bd);
+        
+
+        marker_f8770a1093a14e1296a73bcb36084066.bindPopup(popup_f6ce72cda756433f9c79ad61fe6393d0)
+        ;
+
+        
+    
+    
+            var marker_17e65392cdc6485296e6f42feb178cd8 = L.marker(
+                [52.590278, -2.130278],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_d7138e3f469e4ae4a3f40adba89eee86 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_17e65392cdc6485296e6f42feb178cd8.setIcon(icon_d7138e3f469e4ae4a3f40adba89eee86);
+        
+    
+        var popup_959ca62961a34dcf9e4c274237469f8b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_437325d8657142ada61a76d4fad4473b = $(`<div id="html_437325d8657142ada61a76d4fad4473b" style="width: 100.0%; height: 100.0%;">Wolverhampton Wanderers </div>`)[0];
+            popup_959ca62961a34dcf9e4c274237469f8b.setContent(html_437325d8657142ada61a76d4fad4473b);
+        
+
+        marker_17e65392cdc6485296e6f42feb178cd8.bindPopup(popup_959ca62961a34dcf9e4c274237469f8b)
+        ;
+
+        
+    
+    
+            var marker_d338d45cce2f49c088be753402d00168 = L.marker(
+                [53.552222, -1.4675],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_7c0f31fca0fb44fabd6272466da59da6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_d338d45cce2f49c088be753402d00168.setIcon(icon_7c0f31fca0fb44fabd6272466da59da6);
+        
+    
+        var popup_728724e80a27446b8ea8486ad01f0660 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_35207ae2d799458e99d4a6b2ef39ed9f = $(`<div id="html_35207ae2d799458e99d4a6b2ef39ed9f" style="width: 100.0%; height: 100.0%;">Barnsley </div>`)[0];
+            popup_728724e80a27446b8ea8486ad01f0660.setContent(html_35207ae2d799458e99d4a6b2ef39ed9f);
+        
+
+        marker_d338d45cce2f49c088be753402d00168.bindPopup(popup_728724e80a27446b8ea8486ad01f0660)
+        ;
+
+        
+    
+    
+            var marker_1623a84930ce48ee9dd45c2867474982 = L.marker(
+                [52.475703, -1.868189],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_30680247e3024e4f8f7b0cf0c0178a85 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_1623a84930ce48ee9dd45c2867474982.setIcon(icon_30680247e3024e4f8f7b0cf0c0178a85);
+        
+    
+        var popup_2087882dc23342128976095eb2eccddf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c5d39c3e28c94604be25145e959852d7 = $(`<div id="html_c5d39c3e28c94604be25145e959852d7" style="width: 100.0%; height: 100.0%;">Birmingham City </div>`)[0];
+            popup_2087882dc23342128976095eb2eccddf.setContent(html_c5d39c3e28c94604be25145e959852d7);
+        
+
+        marker_1623a84930ce48ee9dd45c2867474982.bindPopup(popup_2087882dc23342128976095eb2eccddf)
+        ;
+
+        
+    
+    
+            var marker_7e563da93ea84a60b0259ddf73c3d473 = L.marker(
+                [53.804722, -3.048056],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_571880c025144f419e54415b751462ac = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_7e563da93ea84a60b0259ddf73c3d473.setIcon(icon_571880c025144f419e54415b751462ac);
+        
+    
+        var popup_a5618f3b57384e47af35ccd1889a5884 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_532dd6ce7e9c49b98c3b5cf233e4a37f = $(`<div id="html_532dd6ce7e9c49b98c3b5cf233e4a37f" style="width: 100.0%; height: 100.0%;">Blackpool </div>`)[0];
+            popup_a5618f3b57384e47af35ccd1889a5884.setContent(html_532dd6ce7e9c49b98c3b5cf233e4a37f);
+        
+
+        marker_7e563da93ea84a60b0259ddf73c3d473.bindPopup(popup_a5618f3b57384e47af35ccd1889a5884)
+        ;
+
+        
+    
+    
+            var marker_1d4f27d72fa1407ca0d2380bdb17c8f9 = L.marker(
+                [50.861822, -0.083278],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_16aab6b5ec1748bb9a926342f758c51a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_1d4f27d72fa1407ca0d2380bdb17c8f9.setIcon(icon_16aab6b5ec1748bb9a926342f758c51a);
+        
+    
+        var popup_0c58d09baa214319bac17a114cba50c4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_165c7a59451545728c51ce8e9bb13b46 = $(`<div id="html_165c7a59451545728c51ce8e9bb13b46" style="width: 100.0%; height: 100.0%;">Brighton & Hove Albion </div>`)[0];
+            popup_0c58d09baa214319bac17a114cba50c4.setContent(html_165c7a59451545728c51ce8e9bb13b46);
+        
+
+        marker_1d4f27d72fa1407ca0d2380bdb17c8f9.bindPopup(popup_0c58d09baa214319bac17a114cba50c4)
+        ;
+
+        
+    
+    
+            var marker_6b747807b5c9465aade4a745f05da3a4 = L.marker(
+                [51.44, -2.620278],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_dc8e3a75121743d19a7a7d6dea7aac1b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_6b747807b5c9465aade4a745f05da3a4.setIcon(icon_dc8e3a75121743d19a7a7d6dea7aac1b);
+        
+    
+        var popup_c059c208b4e848ce97c33cf90d99db85 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_56b66a977128422eab2f0e3e373b5797 = $(`<div id="html_56b66a977128422eab2f0e3e373b5797" style="width: 100.0%; height: 100.0%;">Bristol City </div>`)[0];
+            popup_c059c208b4e848ce97c33cf90d99db85.setContent(html_56b66a977128422eab2f0e3e373b5797);
+        
+
+        marker_6b747807b5c9465aade4a745f05da3a4.bindPopup(popup_c059c208b4e848ce97c33cf90d99db85)
+        ;
+
+        
+    
+    
+            var marker_8687873a509d460280a6d5b17a96ff3c = L.marker(
+                [53.789167, -2.230278],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_ea4ebdc8f2bc4b52aa504a9b8de1a61e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_8687873a509d460280a6d5b17a96ff3c.setIcon(icon_ea4ebdc8f2bc4b52aa504a9b8de1a61e);
+        
+    
+        var popup_f1c395fc685747d291bcdd9f9fbf774c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_76e9b8c3cee844c6981a018ff8ec93ca = $(`<div id="html_76e9b8c3cee844c6981a018ff8ec93ca" style="width: 100.0%; height: 100.0%;">Burnley </div>`)[0];
+            popup_f1c395fc685747d291bcdd9f9fbf774c.setContent(html_76e9b8c3cee844c6981a018ff8ec93ca);
+        
+
+        marker_8687873a509d460280a6d5b17a96ff3c.bindPopup(popup_f1c395fc685747d291bcdd9f9fbf774c)
+        ;
+
+        
+    
+    
+            var marker_794f97e915454a209a5581823e2ce815 = L.marker(
+                [51.472778, -3.203056],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_84957eae287c4621816a130217fa3414 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_794f97e915454a209a5581823e2ce815.setIcon(icon_84957eae287c4621816a130217fa3414);
+        
+    
+        var popup_686e5500dbfa4ef48a47161746ce8407 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4f1cf01696334c3889d476d7790cfeca = $(`<div id="html_4f1cf01696334c3889d476d7790cfeca" style="width: 100.0%; height: 100.0%;">Cardiff City </div>`)[0];
+            popup_686e5500dbfa4ef48a47161746ce8407.setContent(html_4f1cf01696334c3889d476d7790cfeca);
+        
+
+        marker_794f97e915454a209a5581823e2ce815.bindPopup(popup_686e5500dbfa4ef48a47161746ce8407)
+        ;
+
+        
+    
+    
+            var marker_d5b29145e1b84cd4baa4df2ebd33269b = L.marker(
+                [52.448056, -1.495556],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_f1988785ef194b2eba0a7f23bdf5421f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_d5b29145e1b84cd4baa4df2ebd33269b.setIcon(icon_f1988785ef194b2eba0a7f23bdf5421f);
+        
+    
+        var popup_89b2eebd3fbd41bf8e7fbc2110d9c65a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a9628d850c14462f8534550a4a693f54 = $(`<div id="html_a9628d850c14462f8534550a4a693f54" style="width: 100.0%; height: 100.0%;">Coventry City </div>`)[0];
+            popup_89b2eebd3fbd41bf8e7fbc2110d9c65a.setContent(html_a9628d850c14462f8534550a4a693f54);
+        
+
+        marker_d5b29145e1b84cd4baa4df2ebd33269b.bindPopup(popup_89b2eebd3fbd41bf8e7fbc2110d9c65a)
+        ;
+
+        
+    
+    
+            var marker_0c608cc82ff845b6a30d3d370394cc64 = L.marker(
+                [51.398333, -0.085556],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_827975e8da98427ab9887164045e1c36 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_0c608cc82ff845b6a30d3d370394cc64.setIcon(icon_827975e8da98427ab9887164045e1c36);
+        
+    
+        var popup_7563c13911d34e8182005c4b23502174 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d3b2ef28095c4f4989bc018f9ab23ecb = $(`<div id="html_d3b2ef28095c4f4989bc018f9ab23ecb" style="width: 100.0%; height: 100.0%;">Crystal Palace </div>`)[0];
+            popup_7563c13911d34e8182005c4b23502174.setContent(html_d3b2ef28095c4f4989bc018f9ab23ecb);
+        
+
+        marker_0c608cc82ff845b6a30d3d370394cc64.bindPopup(popup_7563c13911d34e8182005c4b23502174)
+        ;
+
+        
+    
+    
+            var marker_a70a5e780b2f4b4baed24ed98be46954 = L.marker(
+                [52.915, -1.447222],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_90faadee21b24afba0128b8ba7fd5aa0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_a70a5e780b2f4b4baed24ed98be46954.setIcon(icon_90faadee21b24afba0128b8ba7fd5aa0);
+        
+    
+        var popup_808c12714bbc48dfafe7c834a9a62257 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6b72d49d63c14efe8a4cd8adef36c3e8 = $(`<div id="html_6b72d49d63c14efe8a4cd8adef36c3e8" style="width: 100.0%; height: 100.0%;">Derby County </div>`)[0];
+            popup_808c12714bbc48dfafe7c834a9a62257.setContent(html_6b72d49d63c14efe8a4cd8adef36c3e8);
+        
+
+        marker_a70a5e780b2f4b4baed24ed98be46954.bindPopup(popup_808c12714bbc48dfafe7c834a9a62257)
+        ;
+
+        
+    
+    
+            var marker_2eff8aca522343409f39b441da729b03 = L.marker(
+                [53.509722, -1.113889],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_af2ba225dcb242e7844c91563c9e016c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_2eff8aca522343409f39b441da729b03.setIcon(icon_af2ba225dcb242e7844c91563c9e016c);
+        
+    
+        var popup_2371046cec05463489ebf6fc2717d19b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2ade0971fb5c4aada18df8b59bee488f = $(`<div id="html_2ade0971fb5c4aada18df8b59bee488f" style="width: 100.0%; height: 100.0%;">Doncaster Rovers </div>`)[0];
+            popup_2371046cec05463489ebf6fc2717d19b.setContent(html_2ade0971fb5c4aada18df8b59bee488f);
+        
+
+        marker_2eff8aca522343409f39b441da729b03.bindPopup(popup_2371046cec05463489ebf6fc2717d19b)
+        ;
+
+        
+    
+    
+            var marker_5a16487b035d47f6bcf18b5de04b7034 = L.marker(
+                [53.746111, -0.367778],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_d64567c5bd7148a99469ff19cc571bbd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_5a16487b035d47f6bcf18b5de04b7034.setIcon(icon_d64567c5bd7148a99469ff19cc571bbd);
+        
+    
+        var popup_fb100bf1ac4a40e591e9b958358e9b27 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e7d16e8081974b2691fbc01affc08e6f = $(`<div id="html_e7d16e8081974b2691fbc01affc08e6f" style="width: 100.0%; height: 100.0%;">Hull City </div>`)[0];
+            popup_fb100bf1ac4a40e591e9b958358e9b27.setContent(html_e7d16e8081974b2691fbc01affc08e6f);
+        
+
+        marker_5a16487b035d47f6bcf18b5de04b7034.bindPopup(popup_fb100bf1ac4a40e591e9b958358e9b27)
+        ;
+
+        
+    
+    
+            var marker_1f22f0f96ead45159a6a62ac262a9509 = L.marker(
+                [52.055061, 1.144831],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_6ef21c0150a3478aa7772e01d1a85641 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_1f22f0f96ead45159a6a62ac262a9509.setIcon(icon_6ef21c0150a3478aa7772e01d1a85641);
+        
+    
+        var popup_671bae00b4ab47d2b5a5fc4770bc6cef = L.popup({"maxWidth": "100%"});
+
+        
+            var html_685d648e69604603a65081eec09185bf = $(`<div id="html_685d648e69604603a65081eec09185bf" style="width: 100.0%; height: 100.0%;">Ipswich Town </div>`)[0];
+            popup_671bae00b4ab47d2b5a5fc4770bc6cef.setContent(html_685d648e69604603a65081eec09185bf);
+        
+
+        marker_1f22f0f96ead45159a6a62ac262a9509.bindPopup(popup_671bae00b4ab47d2b5a5fc4770bc6cef)
+        ;
+
+        
+    
+    
+            var marker_6b6515a5627e4e408fb76c1042b5b519 = L.marker(
+                [53.777778, -1.572222],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_a185c52082784500a708eb098e48adff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_6b6515a5627e4e408fb76c1042b5b519.setIcon(icon_a185c52082784500a708eb098e48adff);
+        
+    
+        var popup_390755b0e06848dd95ff0870e2ad91a7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_75d49bc49dbb4524bd01d4a6856301b8 = $(`<div id="html_75d49bc49dbb4524bd01d4a6856301b8" style="width: 100.0%; height: 100.0%;">Leeds United </div>`)[0];
+            popup_390755b0e06848dd95ff0870e2ad91a7.setContent(html_75d49bc49dbb4524bd01d4a6856301b8);
+        
+
+        marker_6b6515a5627e4e408fb76c1042b5b519.bindPopup(popup_390755b0e06848dd95ff0870e2ad91a7)
+        ;
+
+        
+    
+    
+            var marker_6e3c55cb08484dfbb7b2a14312322679 = L.marker(
+                [52.620278, -1.142222],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_d2b8b1067ce947ce882027280e4fc2d8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_6e3c55cb08484dfbb7b2a14312322679.setIcon(icon_d2b8b1067ce947ce882027280e4fc2d8);
+        
+    
+        var popup_565f64e7d0a042748bb96de4a3bc26d6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e61801b6165346ba9c71b8662e159555 = $(`<div id="html_e61801b6165346ba9c71b8662e159555" style="width: 100.0%; height: 100.0%;">Leicester City </div>`)[0];
+            popup_565f64e7d0a042748bb96de4a3bc26d6.setContent(html_e61801b6165346ba9c71b8662e159555);
+        
+
+        marker_6e3c55cb08484dfbb7b2a14312322679.bindPopup(popup_565f64e7d0a042748bb96de4a3bc26d6)
+        ;
+
+        
+    
+    
+            var marker_7d97b6a190b949e48c52bac9915702db = L.marker(
+                [54.578333, -1.216944],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_9ac7b50c88d340df81b19c3555b3997c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_7d97b6a190b949e48c52bac9915702db.setIcon(icon_9ac7b50c88d340df81b19c3555b3997c);
+        
+    
+        var popup_08cda5fa5aac4f8889ef1a4b087e4143 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_718efb229fd04e6ca21cc767a9e21534 = $(`<div id="html_718efb229fd04e6ca21cc767a9e21534" style="width: 100.0%; height: 100.0%;">Middlesbrough </div>`)[0];
+            popup_08cda5fa5aac4f8889ef1a4b087e4143.setContent(html_718efb229fd04e6ca21cc767a9e21534);
+        
+
+        marker_7d97b6a190b949e48c52bac9915702db.bindPopup(popup_08cda5fa5aac4f8889ef1a4b087e4143)
+        ;
+
+        
+    
+    
+            var marker_c925acbe48a940829e270ff80ffe1361 = L.marker(
+                [51.485953, -0.05095],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_a6ec5ccdeabd49c288f072e5c2fc1470 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_c925acbe48a940829e270ff80ffe1361.setIcon(icon_a6ec5ccdeabd49c288f072e5c2fc1470);
+        
+    
+        var popup_d4a94662d84f4cf486696e252d6cac4f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_84fe960faf594508afe8c1f4c2160ac3 = $(`<div id="html_84fe960faf594508afe8c1f4c2160ac3" style="width: 100.0%; height: 100.0%;">Millwall </div>`)[0];
+            popup_d4a94662d84f4cf486696e252d6cac4f.setContent(html_84fe960faf594508afe8c1f4c2160ac3);
+        
+
+        marker_c925acbe48a940829e270ff80ffe1361.bindPopup(popup_d4a94662d84f4cf486696e252d6cac4f)
+        ;
+
+        
+    
+    
+            var marker_53df2aa2bbed45b5917d8ebd0666443b = L.marker(
+                [52.94, -1.132778],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_16d9525bc71e46ea8c6bfdd43ce8ebff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_53df2aa2bbed45b5917d8ebd0666443b.setIcon(icon_16d9525bc71e46ea8c6bfdd43ce8ebff);
+        
+    
+        var popup_c62b3781a9f24dfaab3a040abeade1ff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f4bbf53021b24964a9e07682d7d10395 = $(`<div id="html_f4bbf53021b24964a9e07682d7d10395" style="width: 100.0%; height: 100.0%;">Nottingham Forest </div>`)[0];
+            popup_c62b3781a9f24dfaab3a040abeade1ff.setContent(html_f4bbf53021b24964a9e07682d7d10395);
+        
+
+        marker_53df2aa2bbed45b5917d8ebd0666443b.bindPopup(popup_c62b3781a9f24dfaab3a040abeade1ff)
+        ;
+
+        
+    
+    
+            var marker_a8a0d4c06470414aa7f9766e400d7f08 = L.marker(
+                [52.564697, -0.240406],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_793ed401edf142f88bebf383a7967237 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_a8a0d4c06470414aa7f9766e400d7f08.setIcon(icon_793ed401edf142f88bebf383a7967237);
+        
+    
+        var popup_4e742e24ebe64a2ba6fc96f610eb837c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0de6ddfde72c4d0484d866766a7ff536 = $(`<div id="html_0de6ddfde72c4d0484d866766a7ff536" style="width: 100.0%; height: 100.0%;">Peterborough United </div>`)[0];
+            popup_4e742e24ebe64a2ba6fc96f610eb837c.setContent(html_0de6ddfde72c4d0484d866766a7ff536);
+        
+
+        marker_a8a0d4c06470414aa7f9766e400d7f08.bindPopup(popup_4e742e24ebe64a2ba6fc96f610eb837c)
+        ;
+
+        
+    
+    
+            var marker_99763778991847faabff9a2cdf264fbb = L.marker(
+                [50.796389, -1.063889],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_cffc7c0c600d42b9a6b8e86e8d708288 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_99763778991847faabff9a2cdf264fbb.setIcon(icon_cffc7c0c600d42b9a6b8e86e8d708288);
+        
+    
+        var popup_dea3c6e2dde14b9ca74bcd958a54d604 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_199a1bcde23e451f8e0a927a374f7fd5 = $(`<div id="html_199a1bcde23e451f8e0a927a374f7fd5" style="width: 100.0%; height: 100.0%;">Portsmouth </div>`)[0];
+            popup_dea3c6e2dde14b9ca74bcd958a54d604.setContent(html_199a1bcde23e451f8e0a927a374f7fd5);
+        
+
+        marker_99763778991847faabff9a2cdf264fbb.bindPopup(popup_dea3c6e2dde14b9ca74bcd958a54d604)
+        ;
+
+        
+    
+    
+            var marker_19cc7117f72644aca0e946dddc0f703a = L.marker(
+                [51.422222, -0.982778],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_2f3d4a96ab884e32b9d3e3d130f566c1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_19cc7117f72644aca0e946dddc0f703a.setIcon(icon_2f3d4a96ab884e32b9d3e3d130f566c1);
+        
+    
+        var popup_63cd93bbe2844a5b90f3db69a20422cc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_14a0fccf81954cada2aaf40411db351e = $(`<div id="html_14a0fccf81954cada2aaf40411db351e" style="width: 100.0%; height: 100.0%;">Reading </div>`)[0];
+            popup_63cd93bbe2844a5b90f3db69a20422cc.setContent(html_14a0fccf81954cada2aaf40411db351e);
+        
+
+        marker_19cc7117f72644aca0e946dddc0f703a.bindPopup(popup_63cd93bbe2844a5b90f3db69a20422cc)
+        ;
+
+        
+    
+    
+            var marker_408efb5f2ddc439fb05f2b2d1823ba06 = L.marker(
+                [50.905833, -1.391111],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_0922ed191e0c4f4b99fc61c47617102c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_408efb5f2ddc439fb05f2b2d1823ba06.setIcon(icon_0922ed191e0c4f4b99fc61c47617102c);
+        
+    
+        var popup_6d9da0b03d5947a292ff9521cd8df38e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b9e934cd1d5247319d44f438a37316e4 = $(`<div id="html_b9e934cd1d5247319d44f438a37316e4" style="width: 100.0%; height: 100.0%;">Southampton </div>`)[0];
+            popup_6d9da0b03d5947a292ff9521cd8df38e.setContent(html_b9e934cd1d5247319d44f438a37316e4);
+        
+
+        marker_408efb5f2ddc439fb05f2b2d1823ba06.bindPopup(popup_6d9da0b03d5947a292ff9521cd8df38e)
+        ;
+
+        
+    
+    
+            var marker_4556efa4c4cc4368b64b1a8cc8cd1ee6 = L.marker(
+                [51.649836, -0.401486],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_a8bd2b24a1c748b2ad45837e97fb28c3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_4556efa4c4cc4368b64b1a8cc8cd1ee6.setIcon(icon_a8bd2b24a1c748b2ad45837e97fb28c3);
+        
+    
+        var popup_6132881063a64dfcb79a230fc9dbfd7e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_284f61fe9f694fbe8bd4a06b264ca0d7 = $(`<div id="html_284f61fe9f694fbe8bd4a06b264ca0d7" style="width: 100.0%; height: 100.0%;">Watford </div>`)[0];
+            popup_6132881063a64dfcb79a230fc9dbfd7e.setContent(html_284f61fe9f694fbe8bd4a06b264ca0d7);
+        
+
+        marker_4556efa4c4cc4368b64b1a8cc8cd1ee6.bindPopup(popup_6132881063a64dfcb79a230fc9dbfd7e)
+        ;
+
+        
+    
+    
+            var marker_e4f0c6d089f94d6fbe05549bf2a34c24 = L.marker(
+                [51.531944, 0.039444],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_f106240cf4684289a937441c3c3b00b3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_e4f0c6d089f94d6fbe05549bf2a34c24.setIcon(icon_f106240cf4684289a937441c3c3b00b3);
+        
+    
+        var popup_717df92d212d4d04a5775c75ee13d0eb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_40b2e8a1aa49457f88877a3ad8296d99 = $(`<div id="html_40b2e8a1aa49457f88877a3ad8296d99" style="width: 100.0%; height: 100.0%;">West Ham United </div>`)[0];
+            popup_717df92d212d4d04a5775c75ee13d0eb.setContent(html_40b2e8a1aa49457f88877a3ad8296d99);
+        
+
+        marker_e4f0c6d089f94d6fbe05549bf2a34c24.bindPopup(popup_717df92d212d4d04a5775c75ee13d0eb)
+        ;
+
+        
+    
+    
+            var marker_3d6faf4f36644a488e91cec14e1837d2 = L.marker(
+                [55.886167, -3.522872],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_8360b0131cd04d2d923df6be564eddf1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_3d6faf4f36644a488e91cec14e1837d2.setIcon(icon_8360b0131cd04d2d923df6be564eddf1);
+        
+    
+        var popup_8c47dccec62641b9bbea4db49e6079d2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6d430229af394ad89e16dac7a33752a1 = $(`<div id="html_6d430229af394ad89e16dac7a33752a1" style="width: 100.0%; height: 100.0%;">Livingston and Gretna </div>`)[0];
+            popup_8c47dccec62641b9bbea4db49e6079d2.setContent(html_6d430229af394ad89e16dac7a33752a1);
+        
+
+        marker_3d6faf4f36644a488e91cec14e1837d2.bindPopup(popup_8c47dccec62641b9bbea4db49e6079d2)
+        ;
+
+        
+    
+    
+            var marker_32bb7df5da4a4f83a04228284087417a = L.marker(
+                [57.494722, -4.2175],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_d2a9abda64e145c1897d5ffdbbee3741 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_32bb7df5da4a4f83a04228284087417a.setIcon(icon_d2a9abda64e145c1897d5ffdbbee3741);
+        
+    
+        var popup_f664fcbbd913479da056b569604ef6c8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1747740ecc1b4a08aaf97fd260653a01 = $(`<div id="html_1747740ecc1b4a08aaf97fd260653a01" style="width: 100.0%; height: 100.0%;">Inverness C.T. </div>`)[0];
+            popup_f664fcbbd913479da056b569604ef6c8.setContent(html_1747740ecc1b4a08aaf97fd260653a01);
+        
+
+        marker_32bb7df5da4a4f83a04228284087417a.bindPopup(popup_f664fcbbd913479da056b569604ef6c8)
+        ;
+
+        
+    
+    
+            var marker_8bc70b0e9f234e378645fd28e4425321 = L.marker(
+                [55.849711, -4.205589],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_2e688c8da909438d907c0b68d7eef1da = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_8bc70b0e9f234e378645fd28e4425321.setIcon(icon_2e688c8da909438d907c0b68d7eef1da);
+        
+    
+        var popup_45b1bc34f7894fc49bcf27a6edd05cce = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c4510761662e4cf7a25ca33ce43e8cad = $(`<div id="html_c4510761662e4cf7a25ca33ce43e8cad" style="width: 100.0%; height: 100.0%;">Celtic </div>`)[0];
+            popup_45b1bc34f7894fc49bcf27a6edd05cce.setContent(html_c4510761662e4cf7a25ca33ce43e8cad);
+        
+
+        marker_8bc70b0e9f234e378645fd28e4425321.bindPopup(popup_45b1bc34f7894fc49bcf27a6edd05cce)
+        ;
+
+        
+    
+    
+            var marker_80f34a8554b74753975d003af62d87bc = L.marker(
+                [56.475264, -2.973194],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_5741def4b4e7424aa6c7e7e240ba4126 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_80f34a8554b74753975d003af62d87bc.setIcon(icon_5741def4b4e7424aa6c7e7e240ba4126);
+        
+    
+        var popup_18082132c0aa4b2391602d2f761f3fbc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_314c6cbf873b4254b71700dcb00a547c = $(`<div id="html_314c6cbf873b4254b71700dcb00a547c" style="width: 100.0%; height: 100.0%;">Dundee </div>`)[0];
+            popup_18082132c0aa4b2391602d2f761f3fbc.setContent(html_314c6cbf873b4254b71700dcb00a547c);
+        
+
+        marker_80f34a8554b74753975d003af62d87bc.bindPopup(popup_18082132c0aa4b2391602d2f761f3fbc)
+        ;
+
+        
+    
+    
+            var marker_8f93c135a94d4d7cb4dd4e57c111612c = L.marker(
+                [56.075308, -3.441906],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_f515ec83941f4c3a84023eb7421526e6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_8f93c135a94d4d7cb4dd4e57c111612c.setIcon(icon_f515ec83941f4c3a84023eb7421526e6);
+        
+    
+        var popup_4029d4093e86402fa1434e5e27c588e4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e27e06886752479f8f57536e1cba3ce3 = $(`<div id="html_e27e06886752479f8f57536e1cba3ce3" style="width: 100.0%; height: 100.0%;">Dunfermline Athletic </div>`)[0];
+            popup_4029d4093e86402fa1434e5e27c588e4.setContent(html_e27e06886752479f8f57536e1cba3ce3);
+        
+
+        marker_8f93c135a94d4d7cb4dd4e57c111612c.bindPopup(popup_4029d4093e86402fa1434e5e27c588e4)
+        ;
+
+        
+    
+    
+            var marker_00783823f34045cc9576de5f37093f7a = L.marker(
+                [55.961667, -3.165556],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_9a53303ea9e24881bde5833f5f5d9b6f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_00783823f34045cc9576de5f37093f7a.setIcon(icon_9a53303ea9e24881bde5833f5f5d9b6f);
+        
+    
+        var popup_0b87294df8c14fe89a5118bffea11598 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4410514f5a28489197a8ff280184edfa = $(`<div id="html_4410514f5a28489197a8ff280184edfa" style="width: 100.0%; height: 100.0%;">Hibernian </div>`)[0];
+            popup_0b87294df8c14fe89a5118bffea11598.setContent(html_4410514f5a28489197a8ff280184edfa);
+        
+
+        marker_00783823f34045cc9576de5f37093f7a.bindPopup(popup_0b87294df8c14fe89a5118bffea11598)
+        ;
+
+        
+    
+    
+            var marker_f44875469bc742c4ab71819c9744eca0 = L.marker(
+                [56.005136, -3.754269],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_de89479c435840c4a909715d8dcda65e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_f44875469bc742c4ab71819c9744eca0.setIcon(icon_de89479c435840c4a909715d8dcda65e);
+        
+    
+        var popup_9b9f1829ddac4ff998a08fa4e7701d21 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5aef14636b284b3281142e8c155933ff = $(`<div id="html_5aef14636b284b3281142e8c155933ff" style="width: 100.0%; height: 100.0%;">Falkirk </div>`)[0];
+            popup_9b9f1829ddac4ff998a08fa4e7701d21.setContent(html_5aef14636b284b3281142e8c155933ff);
+        
+
+        marker_f44875469bc742c4ab71819c9744eca0.bindPopup(popup_9b9f1829ddac4ff998a08fa4e7701d21)
+        ;
+
+        
+    
+    
+            var marker_ff9c5302de0844fb816b971acff40d76 = L.marker(
+                [55.779947, -3.980078],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_8e638d476deb4edc8e7a053d27c83b25 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_ff9c5302de0844fb816b971acff40d76.setIcon(icon_8e638d476deb4edc8e7a053d27c83b25);
+        
+    
+        var popup_6cd30de8aee745f9a53b3c78b1437988 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bd57330581584bb1874b628e0ff921ff = $(`<div id="html_bd57330581584bb1874b628e0ff921ff" style="width: 100.0%; height: 100.0%;">Motherwell and Gretna </div>`)[0];
+            popup_6cd30de8aee745f9a53b3c78b1437988.setContent(html_bd57330581584bb1874b628e0ff921ff);
+        
+
+        marker_ff9c5302de0844fb816b971acff40d76.bindPopup(popup_6cd30de8aee745f9a53b3c78b1437988)
+        ;
+
+        
+    
+    
+            var marker_efba31f563194fb9bf9549f9aa09f860 = L.marker(
+                [55.881556, -4.269639],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_cd3cd5ba7df74f60a74f03efa35f07dc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_efba31f563194fb9bf9549f9aa09f860.setIcon(icon_cd3cd5ba7df74f60a74f03efa35f07dc);
+        
+    
+        var popup_63fdcec72fa243edbd79d3d8242d99b5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c60b9c64841d4e6585434f1ed7755848 = $(`<div id="html_c60b9c64841d4e6585434f1ed7755848" style="width: 100.0%; height: 100.0%;">Partick Thistle </div>`)[0];
+            popup_63fdcec72fa243edbd79d3d8242d99b5.setContent(html_c60b9c64841d4e6585434f1ed7755848);
+        
+
+        marker_efba31f563194fb9bf9549f9aa09f860.bindPopup(popup_63fdcec72fa243edbd79d3d8242d99b5)
+        ;
+
+        
+    
+    
+            var marker_cfbfcc4c8fea42d881834791495355eb = L.marker(
+                [55.853206, -4.309258],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_d861b3ef2e184827976189dcbad4a67a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_cfbfcc4c8fea42d881834791495355eb.setIcon(icon_d861b3ef2e184827976189dcbad4a67a);
+        
+    
+        var popup_f36972338e584dbaa75f12ffcb06f17b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b2cde1ad9248467792ae255285ff9e98 = $(`<div id="html_b2cde1ad9248467792ae255285ff9e98" style="width: 100.0%; height: 100.0%;">Rangers </div>`)[0];
+            popup_f36972338e584dbaa75f12ffcb06f17b.setContent(html_b2cde1ad9248467792ae255285ff9e98);
+        
+
+        marker_cfbfcc4c8fea42d881834791495355eb.bindPopup(popup_f36972338e584dbaa75f12ffcb06f17b)
+        ;
+
+        
+    
+    
+            var marker_fa73ef5a5b6045fbb9279e3ddd0b2304 = L.marker(
+                [56.409686, -3.476928],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_a00dc33697cd41a9982b83e8cda850f3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_fa73ef5a5b6045fbb9279e3ddd0b2304.setIcon(icon_a00dc33697cd41a9982b83e8cda850f3);
+        
+    
+        var popup_71b181b4ae9e4961b1294aba70c4975a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_58323fb2b1124cbf88c9d64974741e11 = $(`<div id="html_58323fb2b1124cbf88c9d64974741e11" style="width: 100.0%; height: 100.0%;">St. Johnstone </div>`)[0];
+            popup_71b181b4ae9e4961b1294aba70c4975a.setContent(html_58323fb2b1124cbf88c9d64974741e11);
+        
+
+        marker_fa73ef5a5b6045fbb9279e3ddd0b2304.bindPopup(popup_71b181b4ae9e4961b1294aba70c4975a)
+        ;
+
+        
+    
+    
+            var marker_7d6601b55184494e8850c3af70cbfbc0 = L.marker(
+                [55.782156, -4.058503],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_bad3f9aa1a314734812c2be02a3a230b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_7d6601b55184494e8850c3af70cbfbc0.setIcon(icon_bad3f9aa1a314734812c2be02a3a230b);
+        
+    
+        var popup_198f07dca9594528a7b61bdac424ab75 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_87b4920265794b2db7de0fb695c56836 = $(`<div id="html_87b4920265794b2db7de0fb695c56836" style="width: 100.0%; height: 100.0%;">Hamilton Academical </div>`)[0];
+            popup_198f07dca9594528a7b61bdac424ab75.setContent(html_87b4920265794b2db7de0fb695c56836);
+        
+
+        marker_7d6601b55184494e8850c3af70cbfbc0.bindPopup(popup_198f07dca9594528a7b61bdac424ab75)
+        ;
+
+        
+    
+    
+            var marker_fc86d5b1436144acbdef60960bad3c63 = L.marker(
+                [57.159167, -2.088889],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_5bc5bc7f02434eb59270174c10189bd9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_fc86d5b1436144acbdef60960bad3c63.setIcon(icon_5bc5bc7f02434eb59270174c10189bd9);
+        
+    
+        var popup_2c4a18ed1bac42c7ab4d037917b2503c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c576edb5e73c4a4f996871b52504378d = $(`<div id="html_c576edb5e73c4a4f996871b52504378d" style="width: 100.0%; height: 100.0%;">Aberdeen and Inverness C.T. </div>`)[0];
+            popup_2c4a18ed1bac42c7ab4d037917b2503c.setContent(html_c576edb5e73c4a4f996871b52504378d);
+        
+
+        marker_fc86d5b1436144acbdef60960bad3c63.bindPopup(popup_2c4a18ed1bac42c7ab4d037917b2503c)
+        ;
+
+        
+    
+    
+            var marker_09a2446be5914148bed3f36244cb40e5 = L.marker(
+                [55.604225, -4.508122],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_53ebce54061947d0b2835fb169d46173 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_09a2446be5914148bed3f36244cb40e5.setIcon(icon_53ebce54061947d0b2835fb169d46173);
+        
+    
+        var popup_f4e358f276f943928910f9d8c02c564d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_728dc110033f4c4e8dbf8d066723ae75 = $(`<div id="html_728dc110033f4c4e8dbf8d066723ae75" style="width: 100.0%; height: 100.0%;">Kilmarnock </div>`)[0];
+            popup_f4e358f276f943928910f9d8c02c564d.setContent(html_728dc110033f4c4e8dbf8d066723ae75);
+        
+
+        marker_09a2446be5914148bed3f36244cb40e5.bindPopup(popup_f4e358f276f943928910f9d8c02c564d)
+        ;
+
+        
+    
+    
+            var marker_43f3f1987c2b438986250d8768b42ac9 = L.marker(
+                [55.850556, -4.443889],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_e8cad025f9da44fd9b45c3eb4894a17d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_43f3f1987c2b438986250d8768b42ac9.setIcon(icon_e8cad025f9da44fd9b45c3eb4894a17d);
+        
+    
+        var popup_51e0021e701a40bfb5a9d2fe086fa375 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_821ca64bc0b4491ba108629ca1684f3d = $(`<div id="html_821ca64bc0b4491ba108629ca1684f3d" style="width: 100.0%; height: 100.0%;">St. Mirren </div>`)[0];
+            popup_51e0021e701a40bfb5a9d2fe086fa375.setContent(html_821ca64bc0b4491ba108629ca1684f3d);
+        
+
+        marker_43f3f1987c2b438986250d8768b42ac9.bindPopup(popup_51e0021e701a40bfb5a9d2fe086fa375)
+        ;
+
+        
+    
+    
+            var marker_b556845fef424181851c1a14c2b8444f = L.marker(
+                [56.474703, -2.968961],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_c5ac25f144d54386aad2b0efe13576ce = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_b556845fef424181851c1a14c2b8444f.setIcon(icon_c5ac25f144d54386aad2b0efe13576ce);
+        
+    
+        var popup_0ee99d433fc44113b387a689c42567c6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1665c5a536d248b0be6e8925309ea7f4 = $(`<div id="html_1665c5a536d248b0be6e8925309ea7f4" style="width: 100.0%; height: 100.0%;">Dundee United </div>`)[0];
+            popup_0ee99d433fc44113b387a689c42567c6.setContent(html_1665c5a536d248b0be6e8925309ea7f4);
+        
+
+        marker_b556845fef424181851c1a14c2b8444f.bindPopup(popup_0ee99d433fc44113b387a689c42567c6)
+        ;
+
+        
+    
+    
+            var marker_333cebc5be864b608b8497e954027d5a = L.marker(
+                [55.939167, -3.232222],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_30111e35c69f45fdb899bf03a8a8532a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_333cebc5be864b608b8497e954027d5a.setIcon(icon_30111e35c69f45fdb899bf03a8a8532a);
+        
+    
+        var popup_bed3e6df0b78499c9b93a0002f7dd58b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_33f1293bb34f40bd84eeff321050f27c = $(`<div id="html_33f1293bb34f40bd84eeff321050f27c" style="width: 100.0%; height: 100.0%;">Heart of Midlothian </div>`)[0];
+            popup_bed3e6df0b78499c9b93a0002f7dd58b.setContent(html_33f1293bb34f40bd84eeff321050f27c);
+        
+
+        marker_333cebc5be864b608b8497e954027d5a.bindPopup(popup_bed3e6df0b78499c9b93a0002f7dd58b)
+        ;
+
+        
+    
+    
+            var marker_cabaef4ac5314ada852fe7a7eb23256d = L.marker(
+                [57.595947, -4.418914],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_e1be2d665f05409b844d46b0fc91e5d5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_cabaef4ac5314ada852fe7a7eb23256d.setIcon(icon_e1be2d665f05409b844d46b0fc91e5d5);
+        
+    
+        var popup_9e47ee95e95b4424b8785cd445917eda = L.popup({"maxWidth": "100%"});
+
+        
+            var html_99965fcc64e145c2852bef792821295f = $(`<div id="html_99965fcc64e145c2852bef792821295f" style="width: 100.0%; height: 100.0%;">Ross County</div>`)[0];
+            popup_9e47ee95e95b4424b8785cd445917eda.setContent(html_99965fcc64e145c2852bef792821295f);
+        
+
+        marker_cabaef4ac5314ada852fe7a7eb23256d.bindPopup(popup_9e47ee95e95b4424b8785cd445917eda)
+        ;
+
+        
+    
+    
+            var marker_a27af9ae2b2d46f3bfc888da0c7a5e16 = L.marker(
+                [48.3225, 10.882222],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_436f154682bf4cd7aa66d0c4f1791564 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_a27af9ae2b2d46f3bfc888da0c7a5e16.setIcon(icon_436f154682bf4cd7aa66d0c4f1791564);
+        
+    
+        var popup_320fdafca667458299b7126603ea95e9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a62770bbd06749ad9c8911d670772ae6 = $(`<div id="html_a62770bbd06749ad9c8911d670772ae6" style="width: 100.0%; height: 100.0%;">FC Augsburg </div>`)[0];
+            popup_320fdafca667458299b7126603ea95e9.setContent(html_a62770bbd06749ad9c8911d670772ae6);
+        
+
+        marker_a27af9ae2b2d46f3bfc888da0c7a5e16.bindPopup(popup_320fdafca667458299b7126603ea95e9)
+        ;
+
+        
+    
+    
+            var marker_8f977c4855ba4499bd4790e25847d635 = L.marker(
+                [51.038256, 7.002206],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_f5e599e8c5b449e6a24ef452ee151734 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_8f977c4855ba4499bd4790e25847d635.setIcon(icon_f5e599e8c5b449e6a24ef452ee151734);
+        
+    
+        var popup_993d5335584b49738faea41c68e42e3d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_484adbcfb599420b9729cea9cf96891e = $(`<div id="html_484adbcfb599420b9729cea9cf96891e" style="width: 100.0%; height: 100.0%;">Bayer Leverkusen </div>`)[0];
+            popup_993d5335584b49738faea41c68e42e3d.setContent(html_484adbcfb599420b9729cea9cf96891e);
+        
+
+        marker_8f977c4855ba4499bd4790e25847d635.bindPopup(popup_993d5335584b49738faea41c68e42e3d)
+        ;
+
+        
+    
+    
+            var marker_96c5696ef92f4d1489b300f8bda85011 = L.marker(
+                [48.218775, 11.624753],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_c215b6da434146f4988758a076ee1e9c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_96c5696ef92f4d1489b300f8bda85011.setIcon(icon_c215b6da434146f4988758a076ee1e9c);
+        
+    
+        var popup_666c6568106048b4b6d42d5847c20e37 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bd504a4bfe3b4047bc9ce38592ac866a = $(`<div id="html_bd504a4bfe3b4047bc9ce38592ac866a" style="width: 100.0%; height: 100.0%;">Bayern Munich </div>`)[0];
+            popup_666c6568106048b4b6d42d5847c20e37.setContent(html_bd504a4bfe3b4047bc9ce38592ac866a);
+        
+
+        marker_96c5696ef92f4d1489b300f8bda85011.bindPopup(popup_666c6568106048b4b6d42d5847c20e37)
+        ;
+
+        
+    
+    
+            var marker_fdad64a86bd6402b884ca024f8d34af9 = L.marker(
+                [51.492569, 7.451842],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_75c407ce2fe04ca79e19fc14b4d8d73c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_fdad64a86bd6402b884ca024f8d34af9.setIcon(icon_75c407ce2fe04ca79e19fc14b4d8d73c);
+        
+    
+        var popup_fb6058ba603147e08152db09c6d05292 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9626515b8b724e5cbf2ffc5e16cfb240 = $(`<div id="html_9626515b8b724e5cbf2ffc5e16cfb240" style="width: 100.0%; height: 100.0%;">Borussia Dortmund </div>`)[0];
+            popup_fb6058ba603147e08152db09c6d05292.setContent(html_9626515b8b724e5cbf2ffc5e16cfb240);
+        
+
+        marker_fdad64a86bd6402b884ca024f8d34af9.bindPopup(popup_fb6058ba603147e08152db09c6d05292)
+        ;
+
+        
+    
+    
+            var marker_aefdc3b516104566af4e33c0e8894007 = L.marker(
+                [51.174583, 6.385464],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_1a23cade022d4eabac12480ff41d6a03 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_aefdc3b516104566af4e33c0e8894007.setIcon(icon_1a23cade022d4eabac12480ff41d6a03);
+        
+    
+        var popup_d9ef865263544cbba761036cb21c3353 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0021efc9f5c7408684f997f7edc84749 = $(`<div id="html_0021efc9f5c7408684f997f7edc84749" style="width: 100.0%; height: 100.0%;">Borussia Mönchengladbach </div>`)[0];
+            popup_d9ef865263544cbba761036cb21c3353.setContent(html_0021efc9f5c7408684f997f7edc84749);
+        
+
+        marker_aefdc3b516104566af4e33c0e8894007.bindPopup(popup_d9ef865263544cbba761036cb21c3353)
+        ;
+
+        
+    
+    
+            var marker_8494d7c81666429789985f03b2678761 = L.marker(
+                [52.29, 10.521667],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_5a91f6b1bb27437f9be80fb10fd7fedc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_8494d7c81666429789985f03b2678761.setIcon(icon_5a91f6b1bb27437f9be80fb10fd7fedc);
+        
+    
+        var popup_3cc18e17feda40228d3628d6339ca380 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e83474bb06434a2b97f5d402de0da03f = $(`<div id="html_e83474bb06434a2b97f5d402de0da03f" style="width: 100.0%; height: 100.0%;">Eintracht Braunschweig </div>`)[0];
+            popup_3cc18e17feda40228d3628d6339ca380.setContent(html_e83474bb06434a2b97f5d402de0da03f);
+        
+
+        marker_8494d7c81666429789985f03b2678761.bindPopup(popup_3cc18e17feda40228d3628d6339ca380)
+        ;
+
+        
+    
+    
+            var marker_e9ab4e6357eb48319b87f90c2c96385d = L.marker(
+                [50.068572, 8.645458],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_b8a9cb85623e4524a2435122d958e028 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_e9ab4e6357eb48319b87f90c2c96385d.setIcon(icon_b8a9cb85623e4524a2435122d958e028);
+        
+    
+        var popup_14df6f5554a4466db1e4583da3d19440 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bb449f1b281147d6a344777d69229e85 = $(`<div id="html_bb449f1b281147d6a344777d69229e85" style="width: 100.0%; height: 100.0%;">Eintracht Frankfurt </div>`)[0];
+            popup_14df6f5554a4466db1e4583da3d19440.setContent(html_bb449f1b281147d6a344777d69229e85);
+        
+
+        marker_e9ab4e6357eb48319b87f90c2c96385d.bindPopup(popup_14df6f5554a4466db1e4583da3d19440)
+        ;
+
+        
+    
+    
+            var marker_749de95174f44d2ea4ae488b04b31c4f = L.marker(
+                [47.988889, 7.893056],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_7d05fbe4873d4865b598618a4e4f92f6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_749de95174f44d2ea4ae488b04b31c4f.setIcon(icon_7d05fbe4873d4865b598618a4e4f92f6);
+        
+    
+        var popup_ffb9c128059941b2973ccd9c18f882c7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5263e2acd41248b796f6571029aed5ad = $(`<div id="html_5263e2acd41248b796f6571029aed5ad" style="width: 100.0%; height: 100.0%;">SC Freiburg </div>`)[0];
+            popup_ffb9c128059941b2973ccd9c18f882c7.setContent(html_5263e2acd41248b796f6571029aed5ad);
+        
+
+        marker_749de95174f44d2ea4ae488b04b31c4f.bindPopup(popup_ffb9c128059941b2973ccd9c18f882c7)
+        ;
+
+        
+    
+    
+            var marker_14f5a64b83a741dd8965f31c0a142669 = L.marker(
+                [53.587158, 9.898617],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_3827a6daaf1b4677a5e383228fe3fbf1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_14f5a64b83a741dd8965f31c0a142669.setIcon(icon_3827a6daaf1b4677a5e383228fe3fbf1);
+        
+    
+        var popup_76e222905e09413abc7079c868db0357 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2bf3357ca1a146fea99a18be7585b29f = $(`<div id="html_2bf3357ca1a146fea99a18be7585b29f" style="width: 100.0%; height: 100.0%;">Hamburger SV </div>`)[0];
+            popup_76e222905e09413abc7079c868db0357.setContent(html_2bf3357ca1a146fea99a18be7585b29f);
+        
+
+        marker_14f5a64b83a741dd8965f31c0a142669.bindPopup(popup_76e222905e09413abc7079c868db0357)
+        ;
+
+        
+    
+    
+            var marker_3a03693789fb4120a695702d57317009 = L.marker(
+                [52.360067, 9.731197],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_80b3e92a4ea0403cae506eddbd9eb829 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_3a03693789fb4120a695702d57317009.setIcon(icon_80b3e92a4ea0403cae506eddbd9eb829);
+        
+    
+        var popup_2a861f4e18b949a5b3a86815462df99d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cd4679de7a9d4cba805148576070a983 = $(`<div id="html_cd4679de7a9d4cba805148576070a983" style="width: 100.0%; height: 100.0%;">Hannover 96 </div>`)[0];
+            popup_2a861f4e18b949a5b3a86815462df99d.setContent(html_cd4679de7a9d4cba805148576070a983);
+        
+
+        marker_3a03693789fb4120a695702d57317009.bindPopup(popup_2a861f4e18b949a5b3a86815462df99d)
+        ;
+
+        
+    
+    
+            var marker_4712ac0466f74ac394bbbbc1575f45a3 = L.marker(
+                [52.514722, 13.239444],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_f6d3e6735644480ba802760bcfebc82a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_4712ac0466f74ac394bbbbc1575f45a3.setIcon(icon_f6d3e6735644480ba802760bcfebc82a);
+        
+    
+        var popup_324224447a8c436e9eb02d146129e8fc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f03d22df1c8f49249cd89f211c4ae4a2 = $(`<div id="html_f03d22df1c8f49249cd89f211c4ae4a2" style="width: 100.0%; height: 100.0%;">Hertha BSC </div>`)[0];
+            popup_324224447a8c436e9eb02d146129e8fc.setContent(html_f03d22df1c8f49249cd89f211c4ae4a2);
+        
+
+        marker_4712ac0466f74ac394bbbbc1575f45a3.bindPopup(popup_324224447a8c436e9eb02d146129e8fc)
+        ;
+
+        
+    
+    
+            var marker_9368cd7e55a34ea384c313e694162d21 = L.marker(
+                [49.239008, 8.888281],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_a0978cd46ad94b5799b88c685cab2db5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_9368cd7e55a34ea384c313e694162d21.setIcon(icon_a0978cd46ad94b5799b88c685cab2db5);
+        
+    
+        var popup_02720653890c419ebeabe4f0328b0ad8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6e391247e6e14021b3d26aa004dd0481 = $(`<div id="html_6e391247e6e14021b3d26aa004dd0481" style="width: 100.0%; height: 100.0%;">TSG 1899 Hoffenheim </div>`)[0];
+            popup_02720653890c419ebeabe4f0328b0ad8.setContent(html_6e391247e6e14021b3d26aa004dd0481);
+        
+
+        marker_9368cd7e55a34ea384c313e694162d21.bindPopup(popup_02720653890c419ebeabe4f0328b0ad8)
+        ;
+
+        
+    
+    
+            var marker_0b88272a07e145dfac8c4af8c4b5cdbf = L.marker(
+                [49.984167, 8.224167],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_fc14b380111b4bd29fc78c614a3ee352 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_0b88272a07e145dfac8c4af8c4b5cdbf.setIcon(icon_fc14b380111b4bd29fc78c614a3ee352);
+        
+    
+        var popup_d66a2c2e0a934f1f9f36db77a8a8aaf4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c0c395710c714566ab2d76331e7aa3ce = $(`<div id="html_c0c395710c714566ab2d76331e7aa3ce" style="width: 100.0%; height: 100.0%;">1. FSV Mainz 05 </div>`)[0];
+            popup_d66a2c2e0a934f1f9f36db77a8a8aaf4.setContent(html_c0c395710c714566ab2d76331e7aa3ce);
+        
+
+        marker_0b88272a07e145dfac8c4af8c4b5cdbf.bindPopup(popup_d66a2c2e0a934f1f9f36db77a8a8aaf4)
+        ;
+
+        
+    
+    
+            var marker_f5a5ae5064dc425086ad8ce75639fee7 = L.marker(
+                [49.426111, 11.125833],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_4fb08d4aa0494d4ea8460ca789e3a052 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_f5a5ae5064dc425086ad8ce75639fee7.setIcon(icon_4fb08d4aa0494d4ea8460ca789e3a052);
+        
+    
+        var popup_6d98f0b379f34ad2b320e49a8cc5d4c7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b062adc724ea409fbd12151cfee82f40 = $(`<div id="html_b062adc724ea409fbd12151cfee82f40" style="width: 100.0%; height: 100.0%;">1. FC Nürnberg </div>`)[0];
+            popup_6d98f0b379f34ad2b320e49a8cc5d4c7.setContent(html_b062adc724ea409fbd12151cfee82f40);
+        
+
+        marker_f5a5ae5064dc425086ad8ce75639fee7.bindPopup(popup_6d98f0b379f34ad2b320e49a8cc5d4c7)
+        ;
+
+        
+    
+    
+            var marker_1697d1561d9b45d8832fd642fdbcada0 = L.marker(
+                [51.554503, 7.067589],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_55e57500b5724147b36f0f365c5541c1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_1697d1561d9b45d8832fd642fdbcada0.setIcon(icon_55e57500b5724147b36f0f365c5541c1);
+        
+    
+        var popup_cd39eb973f9940848958e46a47dc10da = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1d7dc8fe877f46f39c28c12fcdf82aa4 = $(`<div id="html_1d7dc8fe877f46f39c28c12fcdf82aa4" style="width: 100.0%; height: 100.0%;">Schalke 04 </div>`)[0];
+            popup_cd39eb973f9940848958e46a47dc10da.setContent(html_1d7dc8fe877f46f39c28c12fcdf82aa4);
+        
+
+        marker_1697d1561d9b45d8832fd642fdbcada0.bindPopup(popup_cd39eb973f9940848958e46a47dc10da)
+        ;
+
+        
+    
+    
+            var marker_7b834eada7cc4aec8df7ed64e1ab006a = L.marker(
+                [48.792269, 9.232031],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_01dbd0c107dc43e39cc5799c73e7912b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_7b834eada7cc4aec8df7ed64e1ab006a.setIcon(icon_01dbd0c107dc43e39cc5799c73e7912b);
+        
+    
+        var popup_db69c852c3c241669240fe1bde3a6155 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4af114331d024e29a8513f3666dc914f = $(`<div id="html_4af114331d024e29a8513f3666dc914f" style="width: 100.0%; height: 100.0%;">VfB Stuttgart </div>`)[0];
+            popup_db69c852c3c241669240fe1bde3a6155.setContent(html_4af114331d024e29a8513f3666dc914f);
+        
+
+        marker_7b834eada7cc4aec8df7ed64e1ab006a.bindPopup(popup_db69c852c3c241669240fe1bde3a6155)
+        ;
+
+        
+    
+    
+            var marker_bdf344f9a1334e1aaad84f8b6706c9c2 = L.marker(
+                [53.066394, 8.837628],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_1696768b890643a0ac12d458fe638481 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_bdf344f9a1334e1aaad84f8b6706c9c2.setIcon(icon_1696768b890643a0ac12d458fe638481);
+        
+    
+        var popup_a49b899fb9f34e80867a937554f9def8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6d276cb63ad6413d9892972a045a0514 = $(`<div id="html_6d276cb63ad6413d9892972a045a0514" style="width: 100.0%; height: 100.0%;">Werder Bremen </div>`)[0];
+            popup_a49b899fb9f34e80867a937554f9def8.setContent(html_6d276cb63ad6413d9892972a045a0514);
+        
+
+        marker_bdf344f9a1334e1aaad84f8b6706c9c2.bindPopup(popup_a49b899fb9f34e80867a937554f9def8)
+        ;
+
+        
+    
+    
+            var marker_b6420312534840229de583ea14069dd6 = L.marker(
+                [52.431944, 10.803889],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_0400610e2b4640c18cc52f1e7b90114c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_b6420312534840229de583ea14069dd6.setIcon(icon_0400610e2b4640c18cc52f1e7b90114c);
+        
+    
+        var popup_1d43235b38f84fdca265c59f45e27cfd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ff3eed8d585a4cc3b9d24df2a63dcb17 = $(`<div id="html_ff3eed8d585a4cc3b9d24df2a63dcb17" style="width: 100.0%; height: 100.0%;">VfL Wolfsburg </div>`)[0];
+            popup_1d43235b38f84fdca265c59f45e27cfd.setContent(html_ff3eed8d585a4cc3b9d24df2a63dcb17);
+        
+
+        marker_b6420312534840229de583ea14069dd6.bindPopup(popup_1d43235b38f84fdca265c59f45e27cfd)
+        ;
+
+        
+    
+    
+            var marker_d03a534ee7854be2a1a159397a3d86a6 = L.marker(
+                [51.261667, 6.733056],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_d6196f4ba92b488f8a748c179a031b77 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_d03a534ee7854be2a1a159397a3d86a6.setIcon(icon_d6196f4ba92b488f8a748c179a031b77);
+        
+    
+        var popup_38a07afc43d84b1980c2b4c70e811e3e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8f1a40894ee84bd4ba27b280ae317fcc = $(`<div id="html_8f1a40894ee84bd4ba27b280ae317fcc" style="width: 100.0%; height: 100.0%;">Fortuna Düsseldorf </div>`)[0];
+            popup_38a07afc43d84b1980c2b4c70e811e3e.setContent(html_8f1a40894ee84bd4ba27b280ae317fcc);
+        
+
+        marker_d03a534ee7854be2a1a159397a3d86a6.bindPopup(popup_38a07afc43d84b1980c2b4c70e811e3e)
+        ;
+
+        
+    
+    
+            var marker_d4acb25e5c224bb99ad43dfa31705dc2 = L.marker(
+                [49.486944, 10.999167],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_6e5facdcd1094fb7827cc142d30be59f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_d4acb25e5c224bb99ad43dfa31705dc2.setIcon(icon_6e5facdcd1094fb7827cc142d30be59f);
+        
+    
+        var popup_5ea07430f354426982366b93ba7c017d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e3ebfb5119704b1dbb0e62a7899a6f73 = $(`<div id="html_e3ebfb5119704b1dbb0e62a7899a6f73" style="width: 100.0%; height: 100.0%;">SpVgg Greuther Fürth </div>`)[0];
+            popup_5ea07430f354426982366b93ba7c017d.setContent(html_e3ebfb5119704b1dbb0e62a7899a6f73);
+        
+
+        marker_d4acb25e5c224bb99ad43dfa31705dc2.bindPopup(popup_5ea07430f354426982366b93ba7c017d)
+        ;
+
+        
+    
+    
+            var marker_43c5b3d507bb4ec9a9e200144cf6f014 = L.marker(
+                [49.434722, 7.776667],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_390fae72e1b7428ea039d8b422b337c1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_43c5b3d507bb4ec9a9e200144cf6f014.setIcon(icon_390fae72e1b7428ea039d8b422b337c1);
+        
+    
+        var popup_439393e5237a476095b669ce413212c1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_97cbc9bed1204c509de723b4e36d40be = $(`<div id="html_97cbc9bed1204c509de723b4e36d40be" style="width: 100.0%; height: 100.0%;">1. FC Kaiserslautern </div>`)[0];
+            popup_439393e5237a476095b669ce413212c1.setContent(html_97cbc9bed1204c509de723b4e36d40be);
+        
+
+        marker_43c5b3d507bb4ec9a9e200144cf6f014.bindPopup(popup_439393e5237a476095b669ce413212c1)
+        ;
+
+        
+    
+    
+            var marker_5384d3e531954862a4981a4e62335ed9 = L.marker(
+                [50.933497, 6.874997],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_626e5405ec1d4fe29703b12ff0a8945d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_5384d3e531954862a4981a4e62335ed9.setIcon(icon_626e5405ec1d4fe29703b12ff0a8945d);
+        
+    
+        var popup_f8c9391ff41348a09428e225b107d3cc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5d2cedbffcb345d2ad7a2e3cb1a41235 = $(`<div id="html_5d2cedbffcb345d2ad7a2e3cb1a41235" style="width: 100.0%; height: 100.0%;">1. FC Köln </div>`)[0];
+            popup_f8c9391ff41348a09428e225b107d3cc.setContent(html_5d2cedbffcb345d2ad7a2e3cb1a41235);
+        
+
+        marker_5384d3e531954862a4981a4e62335ed9.bindPopup(popup_f8c9391ff41348a09428e225b107d3cc)
+        ;
+
+        
+    
+    
+            var marker_7cd6e0fff0bb4d59b056c36872b15104 = L.marker(
+                [53.554444, 9.967778],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_9ee8bfe3336d47a68318523e445c3c52 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_7cd6e0fff0bb4d59b056c36872b15104.setIcon(icon_9ee8bfe3336d47a68318523e445c3c52);
+        
+    
+        var popup_3c2c9698b0b84662918ac8ae08a90445 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ba39bc5a5f7f46fc9cab45ff113b0056 = $(`<div id="html_ba39bc5a5f7f46fc9cab45ff113b0056" style="width: 100.0%; height: 100.0%;">FC St. Pauli </div>`)[0];
+            popup_3c2c9698b0b84662918ac8ae08a90445.setContent(html_ba39bc5a5f7f46fc9cab45ff113b0056);
+        
+
+        marker_7cd6e0fff0bb4d59b056c36872b15104.bindPopup(popup_3c2c9698b0b84662918ac8ae08a90445)
+        ;
+
+        
+    
+    
+            var marker_0dcc5db5ed8c4f11b69e1f365cd1620a = L.marker(
+                [36.84, -2.435278],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_92a5ff8d63e94d3cb9f23e9bdc7003a5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_0dcc5db5ed8c4f11b69e1f365cd1620a.setIcon(icon_92a5ff8d63e94d3cb9f23e9bdc7003a5);
+        
+    
+        var popup_05e4a9a1616b4aba81beedc2148f5911 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_86ec16a355454370adc93e178b84b399 = $(`<div id="html_86ec16a355454370adc93e178b84b399" style="width: 100.0%; height: 100.0%;">Almería </div>`)[0];
+            popup_05e4a9a1616b4aba81beedc2148f5911.setContent(html_86ec16a355454370adc93e178b84b399);
+        
+
+        marker_0dcc5db5ed8c4f11b69e1f365cd1620a.bindPopup(popup_05e4a9a1616b4aba81beedc2148f5911)
+        ;
+
+        
+    
+    
+            var marker_1b87bcac96404807a65611a1f7633371 = L.marker(
+                [43.264284, -2.950366],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_36b813cab47b4fc5bfcf1ced0cf7d026 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_1b87bcac96404807a65611a1f7633371.setIcon(icon_36b813cab47b4fc5bfcf1ced0cf7d026);
+        
+    
+        var popup_4b9b721b43ce437993b0b33c20b75c1b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a1ba08586fef4a0a8e566b3497c0dd30 = $(`<div id="html_a1ba08586fef4a0a8e566b3497c0dd30" style="width: 100.0%; height: 100.0%;">Athletic Bilbao </div>`)[0];
+            popup_4b9b721b43ce437993b0b33c20b75c1b.setContent(html_a1ba08586fef4a0a8e566b3497c0dd30);
+        
+
+        marker_1b87bcac96404807a65611a1f7633371.bindPopup(popup_4b9b721b43ce437993b0b33c20b75c1b)
+        ;
+
+        
+    
+    
+            var marker_f9f867077ee14cd680be2cc4e49d5970 = L.marker(
+                [40.401719, -3.720606],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_c6a6d36ea5be460abd3178e94799f38e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_f9f867077ee14cd680be2cc4e49d5970.setIcon(icon_c6a6d36ea5be460abd3178e94799f38e);
+        
+    
+        var popup_be22766553d44f80bed51b2b10ab9b62 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_915d3f64a95a4af9b62bb423a888a098 = $(`<div id="html_915d3f64a95a4af9b62bb423a888a098" style="width: 100.0%; height: 100.0%;">Atlético Madrid </div>`)[0];
+            popup_be22766553d44f80bed51b2b10ab9b62.setContent(html_915d3f64a95a4af9b62bb423a888a098);
+        
+
+        marker_f9f867077ee14cd680be2cc4e49d5970.bindPopup(popup_be22766553d44f80bed51b2b10ab9b62)
+        ;
+
+        
+    
+    
+            var marker_01b337e7836245dcb70a22869fc16d0e = L.marker(
+                [41.38087, 2.122802],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_f05a9871d32448f982d0bfd3287a8dde = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_01b337e7836245dcb70a22869fc16d0e.setIcon(icon_f05a9871d32448f982d0bfd3287a8dde);
+        
+    
+        var popup_ff57aa0647eb4d36a7f99149dd2e272e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5e6e7588046347a187a8e46775515fc3 = $(`<div id="html_5e6e7588046347a187a8e46775515fc3" style="width: 100.0%; height: 100.0%;">Barcelona </div>`)[0];
+            popup_ff57aa0647eb4d36a7f99149dd2e272e.setContent(html_5e6e7588046347a187a8e46775515fc3);
+        
+
+        marker_01b337e7836245dcb70a22869fc16d0e.bindPopup(popup_ff57aa0647eb4d36a7f99149dd2e272e)
+        ;
+
+        
+    
+    
+            var marker_a32ea75467e34cdaaea8660a4e776899 = L.marker(
+                [37.356389, -5.981389],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_2d2790f578ac4e7e8ceb5c2b9dd29fac = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_a32ea75467e34cdaaea8660a4e776899.setIcon(icon_2d2790f578ac4e7e8ceb5c2b9dd29fac);
+        
+    
+        var popup_d91d005b9a3b4138a74f7942d20c196a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b0ea9231526745728f3924ac3f43a3be = $(`<div id="html_b0ea9231526745728f3924ac3f43a3be" style="width: 100.0%; height: 100.0%;">Betis </div>`)[0];
+            popup_d91d005b9a3b4138a74f7942d20c196a.setContent(html_b0ea9231526745728f3924ac3f43a3be);
+        
+
+        marker_a32ea75467e34cdaaea8660a4e776899.bindPopup(popup_d91d005b9a3b4138a74f7942d20c196a)
+        ;
+
+        
+    
+    
+            var marker_8303ab3d0c05463999d07c6749b8008a = L.marker(
+                [42.211842, -8.739711],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_63d9533408f642e7b6100b6ed79ef227 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_8303ab3d0c05463999d07c6749b8008a.setIcon(icon_63d9533408f642e7b6100b6ed79ef227);
+        
+    
+        var popup_7c9cd759d06649cb9af060ba4d458d2d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_336ed057b95648cab1a8d0573931ceec = $(`<div id="html_336ed057b95648cab1a8d0573931ceec" style="width: 100.0%; height: 100.0%;">Celta de Vigo </div>`)[0];
+            popup_7c9cd759d06649cb9af060ba4d458d2d.setContent(html_336ed057b95648cab1a8d0573931ceec);
+        
+
+        marker_8303ab3d0c05463999d07c6749b8008a.bindPopup(popup_7c9cd759d06649cb9af060ba4d458d2d)
+        ;
+
+        
+    
+    
+            var marker_dc8746058cca409d9a06d9050e6e4ce4 = L.marker(
+                [38.266944, -0.663333],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_600f814ade5d439d91ea6b8a58bd3445 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_dc8746058cca409d9a06d9050e6e4ce4.setIcon(icon_600f814ade5d439d91ea6b8a58bd3445);
+        
+    
+        var popup_fd2e53a27ec34557991b31ad77c95811 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a149606e30ff4d33ac3668f2a036c721 = $(`<div id="html_a149606e30ff4d33ac3668f2a036c721" style="width: 100.0%; height: 100.0%;">Elche </div>`)[0];
+            popup_fd2e53a27ec34557991b31ad77c95811.setContent(html_a149606e30ff4d33ac3668f2a036c721);
+        
+
+        marker_dc8746058cca409d9a06d9050e6e4ce4.bindPopup(popup_fd2e53a27ec34557991b31ad77c95811)
+        ;
+
+        
+    
+    
+            var marker_d5568ae3541f4fe9b99aa243d34fd7e3 = L.marker(
+                [41.347861, 2.075667],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_5f3fe16f77e04919a0873b9bc60f67df = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_d5568ae3541f4fe9b99aa243d34fd7e3.setIcon(icon_5f3fe16f77e04919a0873b9bc60f67df);
+        
+    
+        var popup_5ef6eaa3fdb245dd8ed688882020922d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_736b4b23e8d0442e9a887c3b50b87b42 = $(`<div id="html_736b4b23e8d0442e9a887c3b50b87b42" style="width: 100.0%; height: 100.0%;">Espanyol </div>`)[0];
+            popup_5ef6eaa3fdb245dd8ed688882020922d.setContent(html_736b4b23e8d0442e9a887c3b50b87b42);
+        
+
+        marker_d5568ae3541f4fe9b99aa243d34fd7e3.bindPopup(popup_5ef6eaa3fdb245dd8ed688882020922d)
+        ;
+
+        
+    
+    
+            var marker_2bab20854ddb478d9dda7a9cd67d4782 = L.marker(
+                [40.325556, -3.714722],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_c6787130ede64dc8979158bee5e7ef6e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_2bab20854ddb478d9dda7a9cd67d4782.setIcon(icon_c6787130ede64dc8979158bee5e7ef6e);
+        
+    
+        var popup_2d49ca12c2384235ae5081c79168c32b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_90aebb490b1640599ab4054007fb14ee = $(`<div id="html_90aebb490b1640599ab4054007fb14ee" style="width: 100.0%; height: 100.0%;">Getafe </div>`)[0];
+            popup_2d49ca12c2384235ae5081c79168c32b.setContent(html_90aebb490b1640599ab4054007fb14ee);
+        
+
+        marker_2bab20854ddb478d9dda7a9cd67d4782.bindPopup(popup_2d49ca12c2384235ae5081c79168c32b)
+        ;
+
+        
+    
+    
+            var marker_7d0cce8f1a6344f2be1e9f21fb6ad467 = L.marker(
+                [37.152967, -3.595736],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_0d1e7c8762254a5b814365a9d8afaeca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_7d0cce8f1a6344f2be1e9f21fb6ad467.setIcon(icon_0d1e7c8762254a5b814365a9d8afaeca);
+        
+    
+        var popup_581d8ab6dbc44702b77157c9516ca3a4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ec027b9eced54d389cbec7e413fdcd86 = $(`<div id="html_ec027b9eced54d389cbec7e413fdcd86" style="width: 100.0%; height: 100.0%;">Granada </div>`)[0];
+            popup_581d8ab6dbc44702b77157c9516ca3a4.setContent(html_ec027b9eced54d389cbec7e413fdcd86);
+        
+
+        marker_7d0cce8f1a6344f2be1e9f21fb6ad467.bindPopup(popup_581d8ab6dbc44702b77157c9516ca3a4)
+        ;
+
+        
+    
+    
+            var marker_3fdb2e4f5b0343038ec8d6cdba31f4ae = L.marker(
+                [39.494722, -0.364167],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_be09c7114a09483a99c633ce47a025b8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_3fdb2e4f5b0343038ec8d6cdba31f4ae.setIcon(icon_be09c7114a09483a99c633ce47a025b8);
+        
+    
+        var popup_f2cb74b268224307847ce38fa7d71184 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3ac2744907df44da9df0c9d6c03d5db9 = $(`<div id="html_3ac2744907df44da9df0c9d6c03d5db9" style="width: 100.0%; height: 100.0%;">Levante </div>`)[0];
+            popup_f2cb74b268224307847ce38fa7d71184.setContent(html_3ac2744907df44da9df0c9d6c03d5db9);
+        
+
+        marker_3fdb2e4f5b0343038ec8d6cdba31f4ae.bindPopup(popup_f2cb74b268224307847ce38fa7d71184)
+        ;
+
+        
+    
+    
+            var marker_c08ec38deab2497a8088aadac5ce8f47 = L.marker(
+                [36.734092, -4.426422],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_60ee0a2ba8ce418db93a09eb26cc66c0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_c08ec38deab2497a8088aadac5ce8f47.setIcon(icon_60ee0a2ba8ce418db93a09eb26cc66c0);
+        
+    
+        var popup_caceccf18fbf41e391cc07d64370356d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0979eb913b124d55b9f0182f55f4183c = $(`<div id="html_0979eb913b124d55b9f0182f55f4183c" style="width: 100.0%; height: 100.0%;">Málaga </div>`)[0];
+            popup_caceccf18fbf41e391cc07d64370356d.setContent(html_0979eb913b124d55b9f0182f55f4183c);
+        
+
+        marker_c08ec38deab2497a8088aadac5ce8f47.bindPopup(popup_caceccf18fbf41e391cc07d64370356d)
+        ;
+
+        
+    
+    
+            var marker_bd757db814f2440bb31eed7917830727 = L.marker(
+                [42.796667, -1.636944],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_5060d01412b8441aa4dd28abbe1a7bd3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_bd757db814f2440bb31eed7917830727.setIcon(icon_5060d01412b8441aa4dd28abbe1a7bd3);
+        
+    
+        var popup_ea682b53c3d74cf4ad73ea6dc39fb148 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c51f46ca3517468aaba5055ec58deb53 = $(`<div id="html_c51f46ca3517468aaba5055ec58deb53" style="width: 100.0%; height: 100.0%;">Osasuna </div>`)[0];
+            popup_ea682b53c3d74cf4ad73ea6dc39fb148.setContent(html_c51f46ca3517468aaba5055ec58deb53);
+        
+
+        marker_bd757db814f2440bb31eed7917830727.bindPopup(popup_ea682b53c3d74cf4ad73ea6dc39fb148)
+        ;
+
+        
+    
+    
+            var marker_887231336a744b9e89588fc543b65f14 = L.marker(
+                [40.391944, -3.658961],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_47cb098eabb746249871bfeba6a255b2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_887231336a744b9e89588fc543b65f14.setIcon(icon_47cb098eabb746249871bfeba6a255b2);
+        
+    
+        var popup_dd2b6fbc40b84822bc1ee0ce7b38b3bc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e456c842805542b4ab7af7bc8ae68968 = $(`<div id="html_e456c842805542b4ab7af7bc8ae68968" style="width: 100.0%; height: 100.0%;">Rayo Vallecano </div>`)[0];
+            popup_dd2b6fbc40b84822bc1ee0ce7b38b3bc.setContent(html_e456c842805542b4ab7af7bc8ae68968);
+        
+
+        marker_887231336a744b9e89588fc543b65f14.bindPopup(popup_dd2b6fbc40b84822bc1ee0ce7b38b3bc)
+        ;
+
+        
+    
+    
+            var marker_08bf09a8d30743cbb24e6bb720920731 = L.marker(
+                [40.45306, -3.68835],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_7d1b6408bf314b0db99bdde27e74bf7b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_08bf09a8d30743cbb24e6bb720920731.setIcon(icon_7d1b6408bf314b0db99bdde27e74bf7b);
+        
+    
+        var popup_4ac77020037741fab86fda644e41dfe3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f15d735a97f741cb8389eab8b570ec3f = $(`<div id="html_f15d735a97f741cb8389eab8b570ec3f" style="width: 100.0%; height: 100.0%;">Real Madrid </div>`)[0];
+            popup_4ac77020037741fab86fda644e41dfe3.setContent(html_f15d735a97f741cb8389eab8b570ec3f);
+        
+
+        marker_08bf09a8d30743cbb24e6bb720920731.bindPopup(popup_4ac77020037741fab86fda644e41dfe3)
+        ;
+
+        
+    
+    
+            var marker_ca235664b2a6470782021f2bb44d7888 = L.marker(
+                [43.301378, -1.973617],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_6cd5a348f5564a809454f488d1543a21 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_ca235664b2a6470782021f2bb44d7888.setIcon(icon_6cd5a348f5564a809454f488d1543a21);
+        
+    
+        var popup_792a7dad3a1e423d9dc7e74c1a57633b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a2023245149c42509a29427b19b4e00e = $(`<div id="html_a2023245149c42509a29427b19b4e00e" style="width: 100.0%; height: 100.0%;">Real Sociedad </div>`)[0];
+            popup_792a7dad3a1e423d9dc7e74c1a57633b.setContent(html_a2023245149c42509a29427b19b4e00e);
+        
+
+        marker_ca235664b2a6470782021f2bb44d7888.bindPopup(popup_792a7dad3a1e423d9dc7e74c1a57633b)
+        ;
+
+        
+    
+    
+            var marker_00c9042413624ff196d70b6f7bc249c2 = L.marker(
+                [37.384, -5.9705],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_96a7d9b922514e82b719dfecd946cbdb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_00c9042413624ff196d70b6f7bc249c2.setIcon(icon_96a7d9b922514e82b719dfecd946cbdb);
+        
+    
+        var popup_bcf1505fe4964208b7b9e7c9341c21fa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_487d57b062534166b28a53567eb28293 = $(`<div id="html_487d57b062534166b28a53567eb28293" style="width: 100.0%; height: 100.0%;">Sevilla </div>`)[0];
+            popup_bcf1505fe4964208b7b9e7c9341c21fa.setContent(html_487d57b062534166b28a53567eb28293);
+        
+
+        marker_00c9042413624ff196d70b6f7bc249c2.bindPopup(popup_bcf1505fe4964208b7b9e7c9341c21fa)
+        ;
+
+        
+    
+    
+            var marker_53fc2c3bbad246faa4f07aa5f8a06651 = L.marker(
+                [39.474656, -0.358361],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_282001d2f9b1430886226c71e92822e3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_53fc2c3bbad246faa4f07aa5f8a06651.setIcon(icon_282001d2f9b1430886226c71e92822e3);
+        
+    
+        var popup_b44a1fe3af5d4a31b0b8bbbcc004d08a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4d1ff37be55341a3b6f9158e6256bb40 = $(`<div id="html_4d1ff37be55341a3b6f9158e6256bb40" style="width: 100.0%; height: 100.0%;">Valencia </div>`)[0];
+            popup_b44a1fe3af5d4a31b0b8bbbcc004d08a.setContent(html_4d1ff37be55341a3b6f9158e6256bb40);
+        
+
+        marker_53fc2c3bbad246faa4f07aa5f8a06651.bindPopup(popup_b44a1fe3af5d4a31b0b8bbbcc004d08a)
+        ;
+
+        
+    
+    
+            var marker_c230270f539b45338251dab0fd52262b = L.marker(
+                [41.644444, -4.761111],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_a47e0716d0d440eaa0bae9ef039ca9ef = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_c230270f539b45338251dab0fd52262b.setIcon(icon_a47e0716d0d440eaa0bae9ef039ca9ef);
+        
+    
+        var popup_1570e61eda7a43f49b13ea91ed395308 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_547673b7a0ee48eb97c7451cd0a810a5 = $(`<div id="html_547673b7a0ee48eb97c7451cd0a810a5" style="width: 100.0%; height: 100.0%;">Valladolid </div>`)[0];
+            popup_1570e61eda7a43f49b13ea91ed395308.setContent(html_547673b7a0ee48eb97c7451cd0a810a5);
+        
+
+        marker_c230270f539b45338251dab0fd52262b.bindPopup(popup_1570e61eda7a43f49b13ea91ed395308)
+        ;
+
+        
+    
+    
+            var marker_a1a99de9debe4f96ae0701908d461b6f = L.marker(
+                [39.944167, -0.103611],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_f9f1ad0d1175475aa216f4e579fd5d29 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_a1a99de9debe4f96ae0701908d461b6f.setIcon(icon_f9f1ad0d1175475aa216f4e579fd5d29);
+        
+    
+        var popup_edd7167b57d54f9b998186b1fb6bfd45 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_92f55425250344139d058a1949902b45 = $(`<div id="html_92f55425250344139d058a1949902b45" style="width: 100.0%; height: 100.0%;">Villarreal </div>`)[0];
+            popup_edd7167b57d54f9b998186b1fb6bfd45.setContent(html_92f55425250344139d058a1949902b45);
+        
+
+        marker_a1a99de9debe4f96ae0701908d461b6f.bindPopup(popup_edd7167b57d54f9b998186b1fb6bfd45)
+        ;
+
+        
+    
+    
+            var marker_5b844b96fd9a4b52add8d84a2f19322d = L.marker(
+                [43.368714, -8.417516],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_8607b4f9e566430b856b0ba330b21202 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_5b844b96fd9a4b52add8d84a2f19322d.setIcon(icon_8607b4f9e566430b856b0ba330b21202);
+        
+    
+        var popup_47fc0f26a75440cfa2e2c4a36f2776da = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7ba8be7551a245279d9c35e6f734a605 = $(`<div id="html_7ba8be7551a245279d9c35e6f734a605" style="width: 100.0%; height: 100.0%;">Deportivo La Coruña </div>`)[0];
+            popup_47fc0f26a75440cfa2e2c4a36f2776da.setContent(html_7ba8be7551a245279d9c35e6f734a605);
+        
+
+        marker_5b844b96fd9a4b52add8d84a2f19322d.bindPopup(popup_47fc0f26a75440cfa2e2c4a36f2776da)
+        ;
+
+        
+    
+    
+            var marker_07c53248463640e1bc1faf2da6891bed = L.marker(
+                [39.59, 2.63],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_1ae62124bed14dc9a2e67f52735f3371 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_07c53248463640e1bc1faf2da6891bed.setIcon(icon_1ae62124bed14dc9a2e67f52735f3371);
+        
+    
+        var popup_ac7883ad5f504e3fbed02c286025a566 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ac74da989f8049e4a3a49ce4bb0289cb = $(`<div id="html_ac74da989f8049e4a3a49ce4bb0289cb" style="width: 100.0%; height: 100.0%;">Mallorca </div>`)[0];
+            popup_ac7883ad5f504e3fbed02c286025a566.setContent(html_ac74da989f8049e4a3a49ce4bb0289cb);
+        
+
+        marker_07c53248463640e1bc1faf2da6891bed.bindPopup(popup_ac7883ad5f504e3fbed02c286025a566)
+        ;
+
+        
+    
+    
+            var marker_47c7ecdb2c4e450f872685d5b7e72d78 = L.marker(
+                [41.636592, -0.901822],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_0bcb3148bc114e9ebfb85718d9533820 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_47c7ecdb2c4e450f872685d5b7e72d78.setIcon(icon_0bcb3148bc114e9ebfb85718d9533820);
+        
+    
+        var popup_64582edbadc04bb29dc6d59b1909e87f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_377a4b3ebdcc44249b91dd201bc1181b = $(`<div id="html_377a4b3ebdcc44249b91dd201bc1181b" style="width: 100.0%; height: 100.0%;">Zaragoza </div>`)[0];
+            popup_64582edbadc04bb29dc6d59b1909e87f.setContent(html_377a4b3ebdcc44249b91dd201bc1181b);
+        
+
+        marker_47c7ecdb2c4e450f872685d5b7e72d78.bindPopup(popup_64582edbadc04bb29dc6d59b1909e87f)
+        ;
+
+        
+    
+    
+            var marker_bad7ce0078a8462281a20aea8c9571e8 = L.marker(
+                [41.931081, 8.776725],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_3056fb1c0b744b5993b8a0391a750f4d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_bad7ce0078a8462281a20aea8c9571e8.setIcon(icon_3056fb1c0b744b5993b8a0391a750f4d);
+        
+    
+        var popup_01b44c3fd9344281877ab711ce1dee8e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_92fc5542c7b04f7788a34b09207ced06 = $(`<div id="html_92fc5542c7b04f7788a34b09207ced06" style="width: 100.0%; height: 100.0%;">Ajaccio </div>`)[0];
+            popup_01b44c3fd9344281877ab711ce1dee8e.setContent(html_92fc5542c7b04f7788a34b09207ced06);
+        
+
+        marker_bad7ce0078a8462281a20aea8c9571e8.bindPopup(popup_01b44c3fd9344281877ab711ce1dee8e)
+        ;
+
+        
+    
+    
+            var marker_66197826e4d14feab4d3dce41e42f4e0 = L.marker(
+                [42.6514, 9.442619],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_d32f26f089fc46858b93e49cd661e63f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_66197826e4d14feab4d3dce41e42f4e0.setIcon(icon_d32f26f089fc46858b93e49cd661e63f);
+        
+    
+        var popup_cba257f99f054d11867eaaf92a352e5c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b8bb3e8380e44a94be768550a7e26d58 = $(`<div id="html_b8bb3e8380e44a94be768550a7e26d58" style="width: 100.0%; height: 100.0%;">Bastia </div>`)[0];
+            popup_cba257f99f054d11867eaaf92a352e5c.setContent(html_b8bb3e8380e44a94be768550a7e26d58);
+        
+
+        marker_66197826e4d14feab4d3dce41e42f4e0.bindPopup(popup_cba257f99f054d11867eaaf92a352e5c)
+        ;
+
+        
+    
+    
+            var marker_3cb79142989d47228c71e2720624df89 = L.marker(
+                [44.829167, -0.597778],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_b26c25ca69f14c05aec1c2afa9a10f80 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_3cb79142989d47228c71e2720624df89.setIcon(icon_b26c25ca69f14c05aec1c2afa9a10f80);
+        
+    
+        var popup_400ba017189045f091d6adc320da1346 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a150f676b9304e0593dfcc02d24070e3 = $(`<div id="html_a150f676b9304e0593dfcc02d24070e3" style="width: 100.0%; height: 100.0%;">Bordeaux </div>`)[0];
+            popup_400ba017189045f091d6adc320da1346.setContent(html_a150f676b9304e0593dfcc02d24070e3);
+        
+
+        marker_3cb79142989d47228c71e2720624df89.bindPopup(popup_400ba017189045f091d6adc320da1346)
+        ;
+
+        
+    
+    
+            var marker_546950f106b34a9f916213a42efb41d9 = L.marker(
+                [45.916497, 6.118054],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_9c64b366d76d42c39c5c046036725c7e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_546950f106b34a9f916213a42efb41d9.setIcon(icon_9c64b366d76d42c39c5c046036725c7e);
+        
+    
+        var popup_622da230f7c9455f96627a198a80c1ed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6865e89af66f4fd3adc4ad4bb7770b90 = $(`<div id="html_6865e89af66f4fd3adc4ad4bb7770b90" style="width: 100.0%; height: 100.0%;">Évian </div>`)[0];
+            popup_622da230f7c9455f96627a198a80c1ed.setContent(html_6865e89af66f4fd3adc4ad4bb7770b90);
+        
+
+        marker_546950f106b34a9f916213a42efb41d9.bindPopup(popup_622da230f7c9455f96627a198a80c1ed)
+        ;
+
+        
+    
+    
+            var marker_a602f729a18b4246a4748986d767f3cb = L.marker(
+                [48.566285, -3.164599],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_501aa4e19da64407ab477752e8769d0b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_a602f729a18b4246a4748986d767f3cb.setIcon(icon_501aa4e19da64407ab477752e8769d0b);
+        
+    
+        var popup_44bf6c35868b474c94472cef1797ce72 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0b927eedbb8e4b0d88cb621728e75615 = $(`<div id="html_0b927eedbb8e4b0d88cb621728e75615" style="width: 100.0%; height: 100.0%;">Guingamp </div>`)[0];
+            popup_44bf6c35868b474c94472cef1797ce72.setContent(html_0b927eedbb8e4b0d88cb621728e75615);
+        
+
+        marker_a602f729a18b4246a4748986d767f3cb.bindPopup(popup_44bf6c35868b474c94472cef1797ce72)
+        ;
+
+        
+    
+    
+            var marker_453a9bd08a974fcbae9de4e523884649 = L.marker(
+                [50.611883, 3.130428],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_d3662be4ebdb461e88f852dbae577523 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_453a9bd08a974fcbae9de4e523884649.setIcon(icon_d3662be4ebdb461e88f852dbae577523);
+        
+    
+        var popup_6fbce19c09f0475c9431e0064e9a1bf0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a1aaa375cb814aea8c60f21532792e95 = $(`<div id="html_a1aaa375cb814aea8c60f21532792e95" style="width: 100.0%; height: 100.0%;">Lille </div>`)[0];
+            popup_6fbce19c09f0475c9431e0064e9a1bf0.setContent(html_a1aaa375cb814aea8c60f21532792e95);
+        
+
+        marker_453a9bd08a974fcbae9de4e523884649.bindPopup(popup_6fbce19c09f0475c9431e0064e9a1bf0)
+        ;
+
+        
+    
+    
+            var marker_8d81fc7efa424815bf55e794c2ae6bc8 = L.marker(
+                [47.748747, -3.369367],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_338341a355d64a3ca8ddd4e18b5f087b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_8d81fc7efa424815bf55e794c2ae6bc8.setIcon(icon_338341a355d64a3ca8ddd4e18b5f087b);
+        
+    
+        var popup_e9012aad65424d51bf9852b8c2c1f0ef = L.popup({"maxWidth": "100%"});
+
+        
+            var html_055398153ea6438a832b67aced0a607e = $(`<div id="html_055398153ea6438a832b67aced0a607e" style="width: 100.0%; height: 100.0%;">Lorient </div>`)[0];
+            popup_e9012aad65424d51bf9852b8c2c1f0ef.setContent(html_055398153ea6438a832b67aced0a607e);
+        
+
+        marker_8d81fc7efa424815bf55e794c2ae6bc8.bindPopup(popup_e9012aad65424d51bf9852b8c2c1f0ef)
+        ;
+
+        
+    
+    
+            var marker_7493dc6f9aad44699a56c4fe3e0fec79 = L.marker(
+                [45.723889, 4.832222],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_5a11eff704054f62a0b87de3b868c082 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_7493dc6f9aad44699a56c4fe3e0fec79.setIcon(icon_5a11eff704054f62a0b87de3b868c082);
+        
+    
+        var popup_92418bfaa89040cea4e329e6fbbc6fd9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e89338b9c7d743029f011e92c9a1c2f1 = $(`<div id="html_e89338b9c7d743029f011e92c9a1c2f1" style="width: 100.0%; height: 100.0%;">Lyon </div>`)[0];
+            popup_92418bfaa89040cea4e329e6fbbc6fd9.setContent(html_e89338b9c7d743029f011e92c9a1c2f1);
+        
+
+        marker_7493dc6f9aad44699a56c4fe3e0fec79.bindPopup(popup_92418bfaa89040cea4e329e6fbbc6fd9)
+        ;
+
+        
+    
+    
+            var marker_1ce7264c63354d438a9097a652811f63 = L.marker(
+                [43.269722, 5.395833],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_322c384e83e9488bb595a6604f402d84 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_1ce7264c63354d438a9097a652811f63.setIcon(icon_322c384e83e9488bb595a6604f402d84);
+        
+    
+        var popup_49dde3543bdd4eb6811e591750f8e2a7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f1b8d3d0397b4a57a081a0c411293b98 = $(`<div id="html_f1b8d3d0397b4a57a081a0c411293b98" style="width: 100.0%; height: 100.0%;">Marseille </div>`)[0];
+            popup_49dde3543bdd4eb6811e591750f8e2a7.setContent(html_f1b8d3d0397b4a57a081a0c411293b98);
+        
+
+        marker_1ce7264c63354d438a9097a652811f63.bindPopup(popup_49dde3543bdd4eb6811e591750f8e2a7)
+        ;
+
+        
+    
+    
+            var marker_7d194a5fd3d34dd0883fed08a0b77088 = L.marker(
+                [43.727606, 7.415614],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_251d488e01ca474ab50fa6e9aa2d793f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_7d194a5fd3d34dd0883fed08a0b77088.setIcon(icon_251d488e01ca474ab50fa6e9aa2d793f);
+        
+    
+        var popup_0825654878384a0dba12a79f6ccd5704 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8e8d2a5e41b347aeb404a6a23151c57c = $(`<div id="html_8e8d2a5e41b347aeb404a6a23151c57c" style="width: 100.0%; height: 100.0%;">AS Monaco </div>`)[0];
+            popup_0825654878384a0dba12a79f6ccd5704.setContent(html_8e8d2a5e41b347aeb404a6a23151c57c);
+        
+
+        marker_7d194a5fd3d34dd0883fed08a0b77088.bindPopup(popup_0825654878384a0dba12a79f6ccd5704)
+        ;
+
+        
+    
+    
+            var marker_5f9ee8d5e7d44af9b279bf1cf3bf8dd5 = L.marker(
+                [43.622222, 3.811944],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_5918d5ca2d1044418c220c2f4219dcce = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_5f9ee8d5e7d44af9b279bf1cf3bf8dd5.setIcon(icon_5918d5ca2d1044418c220c2f4219dcce);
+        
+    
+        var popup_9dee5b76714a4030ab6818b868fe2f20 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_09709143d129465ba4904ddab3392a8f = $(`<div id="html_09709143d129465ba4904ddab3392a8f" style="width: 100.0%; height: 100.0%;">Montpellier </div>`)[0];
+            popup_9dee5b76714a4030ab6818b868fe2f20.setContent(html_09709143d129465ba4904ddab3392a8f);
+        
+
+        marker_5f9ee8d5e7d44af9b279bf1cf3bf8dd5.bindPopup(popup_9dee5b76714a4030ab6818b868fe2f20)
+        ;
+
+        
+    
+    
+            var marker_1b906c42f9684c3d807596596b3f2702 = L.marker(
+                [47.255631, -1.525375],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_ff918ff3e3b144f0b3fe5462d2cdc0b4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_1b906c42f9684c3d807596596b3f2702.setIcon(icon_ff918ff3e3b144f0b3fe5462d2cdc0b4);
+        
+    
+        var popup_5a1cf60dc0294f4b8ebb86bf91e89d7a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_77ef673b885043c5a5313c2e2df74564 = $(`<div id="html_77ef673b885043c5a5313c2e2df74564" style="width: 100.0%; height: 100.0%;">Nantes </div>`)[0];
+            popup_5a1cf60dc0294f4b8ebb86bf91e89d7a.setContent(html_77ef673b885043c5a5313c2e2df74564);
+        
+
+        marker_1b906c42f9684c3d807596596b3f2702.bindPopup(popup_5a1cf60dc0294f4b8ebb86bf91e89d7a)
+        ;
+
+        
+    
+    
+            var marker_4899a35466ca4dc48bf44a284c565c30 = L.marker(
+                [43.723328, 7.258756],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_4a137db8d65849ec95ba4f2d079e0589 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_4899a35466ca4dc48bf44a284c565c30.setIcon(icon_4a137db8d65849ec95ba4f2d079e0589);
+        
+    
+        var popup_2082beecc7e4430e9c0ad5383b6f0384 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8299b14fc60d442d8b531d3eb393536c = $(`<div id="html_8299b14fc60d442d8b531d3eb393536c" style="width: 100.0%; height: 100.0%;">Nice </div>`)[0];
+            popup_2082beecc7e4430e9c0ad5383b6f0384.setContent(html_8299b14fc60d442d8b531d3eb393536c);
+        
+
+        marker_4899a35466ca4dc48bf44a284c565c30.bindPopup(popup_2082beecc7e4430e9c0ad5383b6f0384)
+        ;
+
+        
+    
+    
+            var marker_de79d428a5614eb98b05e8736102bf7c = L.marker(
+                [48.841389, 2.253056],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_34e058c46c8341d3bf80abaafdb40ad0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_de79d428a5614eb98b05e8736102bf7c.setIcon(icon_34e058c46c8341d3bf80abaafdb40ad0);
+        
+    
+        var popup_80d4b9484aea4410aedaab4281472402 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d868feee69f74eaaa63c42ce5de2ba16 = $(`<div id="html_d868feee69f74eaaa63c42ce5de2ba16" style="width: 100.0%; height: 100.0%;">Paris Saint-Germain </div>`)[0];
+            popup_80d4b9484aea4410aedaab4281472402.setContent(html_d868feee69f74eaaa63c42ce5de2ba16);
+        
+
+        marker_de79d428a5614eb98b05e8736102bf7c.bindPopup(popup_80d4b9484aea4410aedaab4281472402)
+        ;
+
+        
+    
+    
+            var marker_950ddf143fac482fa0ca97533f778c4b = L.marker(
+                [49.246667, 4.025],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_a0e44687da774848b7f770f945e9a1b1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_950ddf143fac482fa0ca97533f778c4b.setIcon(icon_a0e44687da774848b7f770f945e9a1b1);
+        
+    
+        var popup_ed8cbd558d344fc388e4c544a8df33c8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9b18bd72722f4348ba23b25b8384b958 = $(`<div id="html_9b18bd72722f4348ba23b25b8384b958" style="width: 100.0%; height: 100.0%;">Reims </div>`)[0];
+            popup_ed8cbd558d344fc388e4c544a8df33c8.setContent(html_9b18bd72722f4348ba23b25b8384b958);
+        
+
+        marker_950ddf143fac482fa0ca97533f778c4b.bindPopup(popup_ed8cbd558d344fc388e4c544a8df33c8)
+        ;
+
+        
+    
+    
+            var marker_aef7b186280141e596f6a8ccba90b7ce = L.marker(
+                [48.107458, -1.712839],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_9776a782d1de43bba19af7159d3d1a81 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_aef7b186280141e596f6a8ccba90b7ce.setIcon(icon_9776a782d1de43bba19af7159d3d1a81);
+        
+    
+        var popup_e9cd90067dff4b4e878622cdd32522ce = L.popup({"maxWidth": "100%"});
+
+        
+            var html_79300b2009ff4669857ef8efa9609127 = $(`<div id="html_79300b2009ff4669857ef8efa9609127" style="width: 100.0%; height: 100.0%;">Rennes </div>`)[0];
+            popup_e9cd90067dff4b4e878622cdd32522ce.setContent(html_79300b2009ff4669857ef8efa9609127);
+        
+
+        marker_aef7b186280141e596f6a8ccba90b7ce.bindPopup(popup_e9cd90067dff4b4e878622cdd32522ce)
+        ;
+
+        
+    
+    
+            var marker_7796e556f7564cfa89658ebc2317c1ab = L.marker(
+                [45.460833, 4.390278],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_7595f93c30304d3080c79c61142716fa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_7796e556f7564cfa89658ebc2317c1ab.setIcon(icon_7595f93c30304d3080c79c61142716fa);
+        
+    
+        var popup_3ffde86872fd4a40a04018c79bc1377a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_05c2707ea6454efa81d77beab0c520fb = $(`<div id="html_05c2707ea6454efa81d77beab0c520fb" style="width: 100.0%; height: 100.0%;">Saint-Étienne </div>`)[0];
+            popup_3ffde86872fd4a40a04018c79bc1377a.setContent(html_05c2707ea6454efa81d77beab0c520fb);
+        
+
+        marker_7796e556f7564cfa89658ebc2317c1ab.bindPopup(popup_3ffde86872fd4a40a04018c79bc1377a)
+        ;
+
+        
+    
+    
+            var marker_5560ad9e469742dc8f78b7e1f7829ffe = L.marker(
+                [47.512417, 6.8112],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_5294472482424261b21643138ba70199 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_5560ad9e469742dc8f78b7e1f7829ffe.setIcon(icon_5294472482424261b21643138ba70199);
+        
+    
+        var popup_dfab73ce54e2493ab51cc73b0c76395f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_89fd459d18624bfb9f2ec7685e114872 = $(`<div id="html_89fd459d18624bfb9f2ec7685e114872" style="width: 100.0%; height: 100.0%;">Sochaux </div>`)[0];
+            popup_dfab73ce54e2493ab51cc73b0c76395f.setContent(html_89fd459d18624bfb9f2ec7685e114872);
+        
+
+        marker_5560ad9e469742dc8f78b7e1f7829ffe.bindPopup(popup_dfab73ce54e2493ab51cc73b0c76395f)
+        ;
+
+        
+    
+    
+            var marker_aa5920e92f4b46b7ae5a28fdcaaa4af9 = L.marker(
+                [43.583056, 1.434167],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_8eb75472ea9f46d3aa58e64e0edf5aea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_aa5920e92f4b46b7ae5a28fdcaaa4af9.setIcon(icon_8eb75472ea9f46d3aa58e64e0edf5aea);
+        
+    
+        var popup_0752ca9c1a2a4b0296599b3a8e321185 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cece867592244ddf9b5227177c492f0a = $(`<div id="html_cece867592244ddf9b5227177c492f0a" style="width: 100.0%; height: 100.0%;">Toulouse </div>`)[0];
+            popup_0752ca9c1a2a4b0296599b3a8e321185.setContent(html_cece867592244ddf9b5227177c492f0a);
+        
+
+        marker_aa5920e92f4b46b7ae5a28fdcaaa4af9.bindPopup(popup_0752ca9c1a2a4b0296599b3a8e321185)
+        ;
+
+        
+    
+    
+            var marker_9e8e6d61fb054af3a420154265db5f3f = L.marker(
+                [50.348131, 3.533027],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_196297638b174dc1a1ec3e5178c3de09 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_9e8e6d61fb054af3a420154265db5f3f.setIcon(icon_196297638b174dc1a1ec3e5178c3de09);
+        
+    
+        var popup_3c3e859447234e3e8e8e92e648faba4c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_53f8111b53e846a1862af69058be8f7e = $(`<div id="html_53f8111b53e846a1862af69058be8f7e" style="width: 100.0%; height: 100.0%;">Valenciennes </div>`)[0];
+            popup_3c3e859447234e3e8e8e92e648faba4c.setContent(html_53f8111b53e846a1862af69058be8f7e);
+        
+
+        marker_9e8e6d61fb054af3a420154265db5f3f.bindPopup(popup_3c3e859447234e3e8e8e92e648faba4c)
+        ;
+
+        
+    
+    
+            var marker_35f0fecc1453471594c53f0581e06f16 = L.marker(
+                [48.6955, 6.210687],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_e19196834d2543edaaa023fb3421e7b4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_35f0fecc1453471594c53f0581e06f16.setIcon(icon_e19196834d2543edaaa023fb3421e7b4);
+        
+    
+        var popup_3bb900507c8f4a91b0ee7ec6acd4c365 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0b04c3b891f24ad1936738ef01190297 = $(`<div id="html_0b04c3b891f24ad1936738ef01190297" style="width: 100.0%; height: 100.0%;">Nancy</div>`)[0];
+            popup_3bb900507c8f4a91b0ee7ec6acd4c365.setContent(html_0b04c3b891f24ad1936738ef01190297);
+        
+
+        marker_35f0fecc1453471594c53f0581e06f16.bindPopup(popup_3bb900507c8f4a91b0ee7ec6acd4c365)
+        ;
+
+        
+    
+    
+            var marker_69cb056a43d14d688c57ed8560574681 = L.marker(
+                [47.324383, 5.068342],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_c08c7bcc43fb49b09913a3c27f01afcc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_69cb056a43d14d688c57ed8560574681.setIcon(icon_c08c7bcc43fb49b09913a3c27f01afcc);
+        
+    
+        var popup_7617d599b1874d9ab05ddfb1675208a5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7a564950b3064405a24e1d14301dda91 = $(`<div id="html_7a564950b3064405a24e1d14301dda91" style="width: 100.0%; height: 100.0%;">Dijon</div>`)[0];
+            popup_7617d599b1874d9ab05ddfb1675208a5.setContent(html_7a564950b3064405a24e1d14301dda91);
+        
+
+        marker_69cb056a43d14d688c57ed8560574681.bindPopup(popup_7617d599b1874d9ab05ddfb1675208a5)
+        ;
+
+        
+    
+    
+            var marker_bdac9f92ebdb4c11a65163a8c3b46f5b = L.marker(
+                [48.307561, 4.098458],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_f84e6e7d168f435a8f25d382671090a5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_bdac9f92ebdb4c11a65163a8c3b46f5b.setIcon(icon_f84e6e7d168f435a8f25d382671090a5);
+        
+    
+        var popup_dc4d44a8fd0540d9b8701216a76c1f08 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5d99fcee423042d48026181dceb42aeb = $(`<div id="html_5d99fcee423042d48026181dceb42aeb" style="width: 100.0%; height: 100.0%;">Troyes </div>`)[0];
+            popup_dc4d44a8fd0540d9b8701216a76c1f08.setContent(html_5d99fcee423042d48026181dceb42aeb);
+        
+
+        marker_bdac9f92ebdb4c11a65163a8c3b46f5b.bindPopup(popup_dc4d44a8fd0540d9b8701216a76c1f08)
+        ;
+
+        
+    
+    
+            var marker_bb8dc0297e9b4326b70bca7e15d36fb8 = L.marker(
+                [47.786753, 3.588664],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_c5bc37e649074630b9260ca247092eba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_bb8dc0297e9b4326b70bca7e15d36fb8.setIcon(icon_c5bc37e649074630b9260ca247092eba);
+        
+    
+        var popup_23d4fbcfc98340f19215ebacb7a173a2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_54be39226ded4075b0bd8e7097286918 = $(`<div id="html_54be39226ded4075b0bd8e7097286918" style="width: 100.0%; height: 100.0%;">Auxerre </div>`)[0];
+            popup_23d4fbcfc98340f19215ebacb7a173a2.setContent(html_54be39226ded4075b0bd8e7097286918);
+        
+
+        marker_bb8dc0297e9b4326b70bca7e15d36fb8.bindPopup(popup_23d4fbcfc98340f19215ebacb7a173a2)
+        ;
+
+        
+    
+    
+            var marker_9391c05b4aa54c5797d2539e6701e683 = L.marker(
+                [48.402932, -4.461694],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_eb375befb0ee48918ef112ba77aea4cf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_9391c05b4aa54c5797d2539e6701e683.setIcon(icon_eb375befb0ee48918ef112ba77aea4cf);
+        
+    
+        var popup_93af39f103be4b89812e17a6887f5e89 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8f27e3aa14e3453481d3a2054d5c3795 = $(`<div id="html_8f27e3aa14e3453481d3a2054d5c3795" style="width: 100.0%; height: 100.0%;">Brest</div>`)[0];
+            popup_93af39f103be4b89812e17a6887f5e89.setContent(html_8f27e3aa14e3453481d3a2054d5c3795);
+        
+
+        marker_9391c05b4aa54c5797d2539e6701e683.bindPopup(popup_93af39f103be4b89812e17a6887f5e89)
+        ;
+
+        
+    
+    
+            var marker_ee4ba24d96df4bc5aed75047b9473a0b = L.marker(
+                [49.179461, -0.396767],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_8f772f7e81a04894b0870914f36a8e28 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_ee4ba24d96df4bc5aed75047b9473a0b.setIcon(icon_8f772f7e81a04894b0870914f36a8e28);
+        
+    
+        var popup_c3546cac5d904d3da942682a1f92b49a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a76e823745884cf6852cf1c481aa7054 = $(`<div id="html_a76e823745884cf6852cf1c481aa7054" style="width: 100.0%; height: 100.0%;">Caen</div>`)[0];
+            popup_c3546cac5d904d3da942682a1f92b49a.setContent(html_a76e823745884cf6852cf1c481aa7054);
+        
+
+        marker_ee4ba24d96df4bc5aed75047b9473a0b.bindPopup(popup_c3546cac5d904d3da942682a1f92b49a)
+        ;
+
+        
+    
+    
+            var marker_0e7efc65a7354e0ebee7fd1fe2bd2165 = L.marker(
+                [43.536111, -5.637222],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_41a0e096c5cb49ecbd813f77a56aeb51 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_0e7efc65a7354e0ebee7fd1fe2bd2165.setIcon(icon_41a0e096c5cb49ecbd813f77a56aeb51);
+        
+    
+        var popup_7ad1fd02ee2348c7b5006b4093b8f3cf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_728a6e3f01c84088b5355388a99c555e = $(`<div id="html_728a6e3f01c84088b5355388a99c555e" style="width: 100.0%; height: 100.0%;">Sporting de Gijón</div>`)[0];
+            popup_7ad1fd02ee2348c7b5006b4093b8f3cf.setContent(html_728a6e3f01c84088b5355388a99c555e);
+        
+
+        marker_0e7efc65a7354e0ebee7fd1fe2bd2165.bindPopup(popup_7ad1fd02ee2348c7b5006b4093b8f3cf)
+        ;
+
+        
+    
+    
+            var marker_f96b1836b73c45da8142657bb7a5c3fc = L.marker(
+                [43.476389, -3.793333],
+                {}
+            ).addTo(feature_group_718f369ae37640b4bdc6f6456de3590d);
+        
+    
+            var icon_d97836807d074df0813627d157159c6f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_f96b1836b73c45da8142657bb7a5c3fc.setIcon(icon_d97836807d074df0813627d157159c6f);
+        
+    
+        var popup_d2002235848c4b059df164b7146f4c4a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d7d00331040a4a12bb065b10503ccdde = $(`<div id="html_d7d00331040a4a12bb065b10503ccdde" style="width: 100.0%; height: 100.0%;">Racing de Santander</div>`)[0];
+            popup_d2002235848c4b059df164b7146f4c4a.setContent(html_d7d00331040a4a12bb065b10503ccdde);
+        
+
+        marker_f96b1836b73c45da8142657bb7a5c3fc.bindPopup(popup_d2002235848c4b059df164b7146f4c4a)
+        ;
+
+        
+    
+</script>
